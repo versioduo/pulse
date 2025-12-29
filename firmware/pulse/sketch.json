@@ -1,0 +1,6 @@
+{
+  "cpu": {
+    "fqbn": "versioduo:samd:pulse",
+    "name": "V2 pulse"
+  }
+}
