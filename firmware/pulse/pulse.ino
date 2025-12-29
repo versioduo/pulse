@@ -1,5 +1,4 @@
 #include <V2Buttons.h>
-#include <V2Color.h>
 #include <V2Device.h>
 #include <V2LED.h>
 #include <V2Link.h>
@@ -62,20 +61,20 @@ namespace {
     void handleNotify(float voltage) override {
       // Loss of power or requests to switch-on without a power connection show yellow LEDs.
       if (voltage < config.min) {
-        LED.splashHSV(0.5, V2Color::Yellow, 1, 0.5);
+        LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
         return;
       }
 
       // Over-voltage shows red LEDs.
       if (voltage > config.max) {
-        LED.splashHSV(0.5, V2Color::Red, 1, 1);
+        LED.splashHSV(0.5, V2Colour::Red, 1, 1);
         return;
       }
 
       // A bar of green LEDs show the voltage.
       const float   fraction = voltage / (float)config.max;
       const uint8_t n        = ceil((float)nPorts * fraction);
-      LED.splashHSV(0.5, 0, n, V2Color::Green, 1, 0.5);
+      LED.splashHSV(0.5, 0, n, V2Colour::Green, 1, 0.5);
     }
   } Power;
 
@@ -141,31 +140,31 @@ namespace {
           break;
 
         case LEDMode::Initialize:
-          LED.setHSV(nPorts + 0, V2Color::Cyan, 1, 0.25);
-          LED.setHSV(nPorts + 1, V2Color::Cyan, 1, 0.25);
+          LED.setHSV(nPorts + 0, V2Colour::Cyan, 1, 0.25);
+          LED.setHSV(nPorts + 1, V2Colour::Cyan, 1, 0.25);
           break;
 
         case LEDMode::Ready:
-          LED.setHSV(nPorts + 0, V2Color::Orange, 1, 0.25);
-          LED.setHSV(nPorts + 1, V2Color::Orange, 1, 0.25);
+          LED.setHSV(nPorts + 0, V2Colour::Orange, 1, 0.25);
+          LED.setHSV(nPorts + 1, V2Colour::Orange, 1, 0.25);
           break;
 
         case LEDMode::Resistance:
           // Map the fraction of the configured resistance range from cyan to magenta.
-          LED.setHSV(port, (float)V2Color::Cyan + (120.f * value), 1, 0.15);
+          LED.setHSV(port, (float)V2Colour::Cyan + (120.f * value), 1, 0.15);
           break;
 
         case LEDMode::Power: {
           const float fraction = powf(value / 100.f, 8);
-          LED.setHSV(port, V2Color::Orange, 1, 0.3f + (0.3f * fraction));
+          LED.setHSV(port, V2Colour::Orange, 1, 0.3f + (0.3f * fraction));
         } break;
 
         case LEDMode::ShortCircuit:
-          LED.setHSV(port, V2Color::Red, 1, 1);
+          LED.setHSV(port, V2Colour::Red, 1, 1);
           break;
 
         case LEDMode::OverCurrent:
-          LED.splashHSV(0.2, V2Color::Magenta, 1, 1);
+          LED.splashHSV(0.2, V2Colour::Magenta, 1, 1);
           break;
       }
     }
