@@ -7470,7 +7470,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 185.42 190.5 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7510,15 +7510,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 185.42 190.5 0)
 			(effects
 				(font
@@ -7693,7 +7684,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 185.42 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7733,15 +7724,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 185.42 172.72 0)
 			(effects
 				(font
@@ -8058,7 +8040,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 211.455 161.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8099,15 +8081,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 211.455 161.29 0)
 			(effects
 				(font
@@ -8471,7 +8444,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 176.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8520,15 +8493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 256.54 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -8542,7 +8506,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 199.39 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8585,15 +8549,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 199.39 144.78 0)
 			(effects
 				(font
@@ -8683,7 +8638,7 @@
 		(lib_id "V2_Cortex_Debug:Cortex_Debug")
 		(at 124.46 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8723,15 +8678,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 124.46 107.95 0)
 			(effects
 				(font
@@ -9434,7 +9380,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 185.42 154.94 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9474,15 +9420,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 185.42 154.94 0)
 			(effects
 				(font
@@ -9699,7 +9636,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 163.195 188.595 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9748,15 +9685,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 163.195 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9770,7 +9698,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 185.42 181.61 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9810,15 +9738,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 185.42 181.61 0)
 			(effects
 				(font
@@ -9905,7 +9824,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 233.045 158.115 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9954,15 +9873,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 233.045 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9976,7 +9886,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 220.98 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10020,15 +9930,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 144.78 0)
 			(effects
 				(font
@@ -10118,7 +10019,7 @@
 		(lib_id "V2_Production:Layer_Numbers")
 		(at 212.725 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10159,15 +10060,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.725 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 212.725 175.26 0)
 			(effects
 				(font
@@ -10457,7 +10349,7 @@
 		(lib_id "V2_Artwork:Board_pulse")
 		(at 162.56 177.165 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10506,15 +10398,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 162.56 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10528,7 +10411,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10569,15 +10452,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 276.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 276.86 153.67 0)
 			(effects
 				(font
@@ -10667,7 +10541,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 185.42 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10707,15 +10581,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 185.42 163.83 0)
 			(effects
 				(font
@@ -11070,7 +10935,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11111,15 +10976,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 276.86 165.1 0)
 			(effects
 				(font
@@ -11537,7 +11393,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 176.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11586,15 +11442,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 276.86 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11608,7 +11455,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11657,15 +11504,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 256.54 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11679,7 +11517,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 240.03 144.78 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11723,15 +11561,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 240.03 144.78 0)
 			(effects
 				(font
@@ -11820,7 +11649,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 256.54 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11869,15 +11698,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 256.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11891,7 +11711,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 163.195 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11940,15 +11760,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 163.195 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11962,7 +11773,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 233.045 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12003,15 +11814,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.045 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 233.045 173.99 0)
 			(effects
 				(font

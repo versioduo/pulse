@@ -1437,9 +1437,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Power input from plug."
+	(text "+5V from Plug"
 		(exclude_from_sim no)
-		(at 137.16 172.72 0)
+		(at 140.97 172.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1449,21 +1449,33 @@
 		)
 		(uuid "0396f705-bdf6-44a8-98af-0a94d543b3b6")
 	)
+	(text "RS-422 3MHz"
+		(exclude_from_sim no)
+		(at 168.91 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a28d7626-6a02-4dc7-adfd-cc7661fc04e1")
+	)
 	(junction
 		(at 148.59 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21458fe4-77b0-40ad-a55c-593593378191")
 	)
-	(wire
-		(pts
-			(xy 148.59 105.41) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d669e89-6a00-46d4-92fb-e0479a9d55ba")
+	(junction
+		(at 160.02 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2be492c-1994-483b-8da4-4e039067fcd9")
+	)
+	(junction
+		(at 160.02 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef5a5e8d-8437-4542-928e-0b572f38f7c6")
 	)
 	(wire
 		(pts
@@ -1477,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 67.31) (xy 170.18 67.31)
+			(xy 158.75 67.31) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 170.18 72.39)
+			(xy 158.75 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 170.18 62.23)
+			(xy 158.75 62.23) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1527,16 +1539,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 139.7 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f1fd7c1-5c47-4b29-8ca2-fbb5cb8100ae")
-	)
-	(wire
-		(pts
 			(xy 142.24 138.43) (xy 128.27 138.43)
 		)
 		(stroke
@@ -1547,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 57.15) (xy 170.18 57.15)
+			(xy 158.75 57.15) (xy 160.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1584,6 +1586,26 @@
 			(type dash)
 		)
 		(uuid "34169a2d-9c41-4028-a07d-984c8f391924")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 175.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49604e1f-5198-4c0a-ac53-407f70e6a7d3")
+	)
+	(wire
+		(pts
+			(xy 160.02 57.15) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50362ba8-ab59-4d7c-ba8e-78732f1dff5d")
 	)
 	(wire
 		(pts
@@ -1696,7 +1718,7 @@
 		(uuid "fa05040d-8899-4519-92e6-a3d4122939c9")
 	)
 	(label "RX-B"
-		(at 170.18 62.23 180)
+		(at 175.26 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,17 +1728,7 @@
 		(uuid "27f4ca63-71e7-450e-b66f-433879ed0065")
 	)
 	(label "RX-A"
-		(at 139.7 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3eb32504-0db8-42f3-aa0a-f3029f7f686d")
-	)
-	(label "RX-A"
-		(at 170.18 57.15 180)
+		(at 175.26 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,18 +1757,8 @@
 		)
 		(uuid "54ee25f9-66ba-4545-9915-4ec74dfb0c9d")
 	)
-	(label "RX-B"
-		(at 139.7 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a43de3c-3325-45eb-bf67-defc80eebc9a")
-	)
 	(label "TX-Z"
-		(at 170.18 67.31 180)
+		(at 175.26 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +1778,7 @@
 		(uuid "d71e5442-adca-4c34-94e5-199363c2864b")
 	)
 	(label "TX-Y"
-		(at 170.18 72.39 180)
+		(at 175.26 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2155,7 +2157,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 148.59 107.95 0)
+		(at 160.02 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2163,7 +2165,7 @@
 		(dnp no)
 		(uuid "51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(property "Reference" "R1901"
-			(at 153.67 106.68 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2173,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 153.67 109.22 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 107.95 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 107.95 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2199,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 148.59 107.95 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2226,7 @@
 		(lib_id "V2_Connector_Header_1.27mm:2x05_Horizontal")
 		(at 148.59 143.51 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2264,15 +2266,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 148.59 143.51 0)
 			(effects
 				(font
