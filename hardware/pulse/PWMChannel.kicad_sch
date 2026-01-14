@@ -6,151 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Channel")
-		(date "2023-01-16")
-		(rev "1")
+		(date "2026-01-13")
+		(rev "2")
 		(company "Power MOSFET + RGB LED")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "V2_Connector_WAGO:2065"
 			(pin_numbers
 				(hide yes)
@@ -163,24 +23,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 6.35 0)
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 3.81 0)
+			(property "Value" "WAGO 2065-100"
+				(at 9.144 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 0 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -206,8 +65,19 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+			(property "Manufacturer" "WAGO"
+				(at 0 -13.208 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2065-100/998-403"
+				(at 0 -16.51 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -261,6 +131,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V2_Device:C_0603_0u1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.778 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0u1"
+				(at 1.778 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "810-CGA3E2X7R1H104MA"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0u1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_0u1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_Diode:S310FA"
 			(pin_numbers
 				(hide yes)
@@ -287,8 +327,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-123F"
-				(at 0 -6.985 0)
+			(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
+				(at -0.254 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -307,6 +347,36 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "512-S310FA"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "S310FA"
+				(at 0 -12.7 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -400,7 +470,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D3"
-				(at 0 11.43 0)
+				(at 0 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -408,7 +478,7 @@
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 8.89 0)
+				(at 0 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,12 +486,11 @@
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -3.81 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(justify top)
 					(hide yes)
 				)
 			)
@@ -436,7 +505,37 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Worldsemi"
+				(at 0 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "WS2812B-2020"
+				(at 0 -12.954 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C965555"
+				(at 0 -18.288 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -681,6 +780,36 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser" "726-BSC010N04LS"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "BSC010N04LS"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "BSC010N04LS_0_1"
 				(polyline
 					(pts
@@ -906,7 +1035,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "V2_power:+24V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -919,7 +1048,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -928,7 +1057,7 @@
 				)
 			)
 			(property "Value" "+24V"
-				(at 0 3.556 0)
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -954,7 +1083,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
+				(at 0 -14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1031,7 +1160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "V2_power:+5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1044,7 +1173,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1053,7 +1182,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 3.556 0)
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1079,7 +1208,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
+				(at 0 -14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1156,7 +1285,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1169,7 +1298,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1178,11 +1307,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1204,7 +1334,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+				(at -0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1259,32 +1389,32 @@
 		)
 	)
 	(junction
-		(at 133.35 91.44)
+		(at 160.02 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c1c1a5-fcf5-4f5a-b697-2e7412b8ca5f")
+	)
+	(junction
+		(at 123.19 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c1fb49f-4ab1-4fca-95e3-d6e2c318f5c4")
 	)
 	(junction
-		(at 156.21 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "805a26db-03dd-40e4-8958-f15ba50e18b1")
-	)
-	(junction
-		(at 146.05 91.44)
+		(at 135.89 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6e7f4b2-bce7-4f3e-b2bc-a7cf3c4790c5")
 	)
 	(junction
-		(at 146.05 86.36)
+		(at 135.89 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed1559ea-bfd0-4d88-84df-ee9f6f02525a")
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 170.18 91.44)
+			(xy 135.89 96.52) (xy 160.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 146.05 86.36)
+			(xy 123.19 91.44) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 125.73 96.52)
+			(xy 111.76 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1314,17 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7dce71-6eb7-47f1-8261-5976d11d74aa")
-	)
-	(wire
-		(pts
-			(xy 133.35 91.44) (xy 146.05 91.44)
+			(xy 123.19 96.52) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1454,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 73.66) (xy 185.42 135.89)
+			(xy 184.15 78.74) (xy 184.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1464,7 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 73.66) (xy 121.92 135.89)
+			(xy 111.76 78.74) (xy 111.76 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 124.46) (xy 160.02 124.46)
+			(xy 184.15 129.54) (xy 156.21 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1484,7 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 73.66) (xy 185.42 73.66)
+			(xy 111.76 78.74) (xy 184.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 135.89) (xy 121.92 135.89)
+			(xy 184.15 140.97) (xy 111.76 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 156.21 86.36)
+			(xy 135.89 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 124.46) (xy 144.78 124.46)
+			(xy 111.76 129.54) (xy 140.97 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1403,7 +1523,7 @@
 		(uuid "fc00c732-8ea3-44dc-9501-d185c9f063b6")
 	)
 	(label "PWM-Sink"
-		(at 160.02 91.44 0)
+		(at 149.86 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1534,7 @@
 	)
 	(hierarchical_label "LED-In"
 		(shape input)
-		(at 123.19 124.46 180)
+		(at 111.76 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1425,7 +1545,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 123.19 96.52 180)
+		(at 111.76 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1436,7 +1556,7 @@
 	)
 	(hierarchical_label "LED-Out"
 		(shape output)
-		(at 184.15 124.46 0)
+		(at 184.15 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1567,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:S310FA")
-		(at 146.05 88.9 270)
+		(at 135.89 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1455,7 +1575,7 @@
 		(dnp no)
 		(uuid "003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(property "Reference" "D201"
-			(at 148.59 87.63 90)
+			(at 138.43 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,15 +1584,15 @@
 			)
 		)
 		(property "Value" "S310FA"
-			(at 152.4 90.17 90)
+			(at 142.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 139.065 88.9 0)
+		(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
+			(at 128.905 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 88.9 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1610,52 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 88.9 0)
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "512-S310FA"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 135.89 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "S310FA"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 135.89 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,8 +1739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 88.9 0)
+		(lib_id "V2_Device:C_0603_0u1")
+		(at 123.19 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1583,7 +1748,7 @@
 		(dnp no)
 		(uuid "2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(property "Reference" "C201"
-			(at 135.89 87.63 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,15 +1757,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 138.43 90.17 0)
+			(at 125.984 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 88.9 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 123.19 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,8 +1774,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 88.9 0)
+		(property "Datasheet" ""
+			(at 123.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1784,52 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 88.9 0)
+			(at 123.19 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 123.19 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 123.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1914,7 @@
 	)
 	(symbol
 		(lib_id "V2_Transistor_FET:BSC010N04LS")
-		(at 130.81 96.52 0)
+		(at 120.65 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1711,7 +1922,7 @@
 		(dnp no)
 		(uuid "41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(property "Reference" "Q201"
-			(at 137.16 95.885 0)
+			(at 127 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1931,7 @@
 			)
 		)
 		(property "Value" "BSC010N04LS"
-			(at 143.51 98.425 0)
+			(at 133.35 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1939,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:TDSON-8-FL"
-			(at 135.89 98.425 0)
+			(at 125.73 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 96.52 90)
+			(at 120.65 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1959,52 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 96.52 0)
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-BSC010N04LS"
+			(at 120.65 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BSC010N04LS"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,8 +2091,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 127 90)
+		(lib_id "V2_power:GND")
+		(at 156.21 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1844,7 +2100,7 @@
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
 		(property "Reference" "#PWR0204"
-			(at 166.37 127 0)
+			(at 162.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,15 +2109,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 127 90)
+			(at 161.29 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 127 0)
+			(at 156.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +2127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 127 0)
+			(at 156.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +2136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 127 0)
+			(at 156.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,8 +2217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 156.21 86.36 0)
+		(lib_id "V2_power:+24V")
+		(at 160.02 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1969,7 +2226,7 @@
 		(dnp no)
 		(uuid "8d45877f-8135-4a36-8f9e-75138393c863")
 		(property "Reference" "#PWR0201"
-			(at 156.21 90.17 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2235,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 156.21 81.915 0)
+			(at 160.02 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 86.36 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 86.36 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 156.21 86.36 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2343,7 @@
 	)
 	(symbol
 		(lib_id "V2_LED:WS2812")
-		(at 152.4 125.73 0)
+		(at 148.59 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,7 +2351,7 @@
 		(dnp no)
 		(uuid "a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(property "Reference" "D202"
-			(at 151.13 115.57 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2359,7 @@
 			)
 		)
 		(property "Value" "WS2812"
-			(at 151.13 118.11 0)
+			(at 147.32 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2367,7 @@
 			)
 		)
 		(property "Footprint" "V2_LED:WS2812-2020"
-			(at 152.4 129.54 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2120,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 135.255 0)
+			(at 151.13 140.335 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2130,7 +2387,52 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 152.4 125.73 0)
+			(at 148.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 148.59 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "WS2812B-2020"
+			(at 148.59 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 148.59 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 148.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 148.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,15 +2523,15 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 175.26 86.36 0)
+		(at 165.1 91.44 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c564935f-4896-4ee0-b85c-c5790de6a0d6")
 		(property "Reference" "J201"
-			(at 176.53 86.36 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,17 +2539,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WAGO-2065"
-			(at 175.26 92.71 0)
+		(property "Value" "WAGO 2065-100"
+			(at 174.752 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 175.26 90.17 0)
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,8 +2556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 175.26 90.17 0)
+		(property "Datasheet" ""
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2566,43 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 86.36 0)
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 165.1 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,8 +2683,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 101.6 0)
+		(lib_id "V2_power:GND")
+		(at 123.19 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2355,7 +2692,7 @@
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
 		(property "Reference" "#PWR0202"
-			(at 133.35 107.95 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,15 +2701,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 106.68 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 101.6 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 101.6 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 101.6 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,15 +2810,15 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 175.26 91.44 0)
+		(at 165.1 96.52 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9a7fd4e-f304-4506-ae23-b77ca5ee51a8")
 		(property "Reference" "J202"
-			(at 176.53 91.44 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,17 +2826,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WAGO-2065"
-			(at 175.26 97.79 0)
+		(property "Value" "WAGO 2065-100"
+			(at 174.752 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 175.26 95.25 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,8 +2843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 175.26 95.25 0)
+		(property "Datasheet" ""
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2853,43 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 91.44 0)
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 165.1 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,8 +2970,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 160.02 121.92 270)
+		(lib_id "V2_power:+5V")
+		(at 156.21 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2979,7 @@
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
 		(property "Reference" "#PWR0203"
-			(at 156.21 121.92 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2988,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 121.92 90)
+			(at 161.29 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 121.92 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 121.92 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +3014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 121.92 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
