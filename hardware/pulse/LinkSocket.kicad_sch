@@ -1368,7 +1368,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1377,7 +1377,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1918,15 +1918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "THVD2442DRCR "
 			(at 151.13 120.65 0)
 			(effects
@@ -1938,15 +1929,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 151.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 151.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,15 +2237,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "330mW"
 			(at 162.56 105.41 0)
 			(effects
@@ -2284,15 +2257,6 @@
 		)
 		(property "Product" "CRCW0603100RFKEAHP"
 			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,15 +2406,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Amphenol FCI"
 			(at 151.13 166.37 0)
 			(effects
@@ -2462,15 +2417,6 @@
 		)
 		(property "Product" "20021112-00010T4LF"
 			(at 151.13 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 151.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,15 +2526,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 172.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 172.72 82.55 0)
 			(effects
@@ -2600,15 +2537,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

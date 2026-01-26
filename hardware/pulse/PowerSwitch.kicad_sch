@@ -2126,7 +2126,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2162,7 +2162,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3095,24 +3095,6 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "50V"
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 120.65 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 120.65 99.06 0)
 			(effects
@@ -3133,15 +3115,6 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,15 +3198,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 92.71 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW060310K0FKEAC"
 			(at 74.93 125.73 0)
 			(effects
@@ -3254,15 +3218,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 92.71 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,15 +3367,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 92.71 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW060310K0FKEAC"
 			(at 110.49 135.89 0)
 			(effects
@@ -3441,15 +3387,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 92.71 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,15 +3536,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 208.28 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW060310K0FKEAC"
 			(at 226.06 76.2 0)
 			(effects
@@ -3628,15 +3556,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 228.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 208.28 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,15 +3706,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 102.87 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "SMBJ36CA-Q"
 			(at 113.03 80.01 0)
 			(effects
@@ -3816,15 +3726,6 @@
 		)
 		(property "Rating" "36V"
 			(at 115.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 102.87 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,15 +3876,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 107.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW06032K70FKEAC"
 			(at 107.95 158.75 0)
 			(effects
@@ -4004,15 +3896,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 107.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,24 +4119,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 95.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 95.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b67c1313-5718-4efe-a02d-ea0578bfa695")
 		)
@@ -4328,15 +4193,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW060310K0FKEAC"
 			(at 193.04 96.52 0)
 			(effects
@@ -4357,15 +4213,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 193.04 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 193.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,15 +4297,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 193.04 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "100mW"
 			(at 193.04 93.98 0)
 			(effects
@@ -4479,15 +4317,6 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,15 +4468,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 154.94 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 154.94 138.43 0)
 			(effects
@@ -4659,15 +4479,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,15 +4628,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Infineon"
 			(at 127 171.45 0)
 			(effects
@@ -4837,15 +4639,6 @@
 		)
 		(property "Product" "BTT60101ERBXUMA1"
 			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,15 +4826,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 85.09 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "100mW"
 			(at 85.09 107.95 0)
 			(effects
@@ -5062,15 +4846,6 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 85.09 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 85.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,15 +4930,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "100mW"
 			(at 142.24 143.51 0)
 			(effects
@@ -5184,15 +4950,6 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 142.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,15 +5099,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 199.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "330mW"
 			(at 199.39 146.05 0)
 			(effects
@@ -5371,15 +5119,6 @@
 		)
 		(property "Product" "CRCW0603100RFKEAHP"
 			(at 199.39 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,15 +5270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 132.08 93.98 0)
 			(effects
@@ -5551,15 +5281,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,15 +5562,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 199.39 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "RB501SM-30FHT2R"
 			(at 212.09 128.27 0)
 			(effects
@@ -5861,15 +5573,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 209.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 199.39 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,24 +5665,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "44ad6940-102b-4da3-81e6-6ca31458b21c")
 		)
@@ -6054,15 +5739,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 116.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CRCW06032K70FKEAC"
 			(at 116.84 158.75 0)
 			(effects
@@ -6083,15 +5759,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 116.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,15 +5910,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 85.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 85.09 153.67 0)
 			(effects
@@ -6263,15 +5921,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 85.09 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 85.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,15 +6072,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 217.17 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 217.17 143.51 0)
 			(effects
@@ -6443,15 +6083,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 217.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 217.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,15 +6168,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 167.64 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 167.64 138.43 0)
 			(effects
@@ -6557,15 +6179,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 167.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 167.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,15 +6264,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 218.44 93.98 0)
 			(effects
@@ -6671,15 +6275,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 218.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 218.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

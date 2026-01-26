@@ -752,12 +752,11 @@
 				)
 			)
 			(property "Footprint" "V2_Package_TO_SOT_SMD:TDSON-8-FL"
-				(at 5.08 -1.905 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -781,7 +780,7 @@
 				)
 			)
 			(property "Mouser" "726-BSC010N04LS"
-				(at 0 -22.86 0)
+				(at 0 -27.94 0)
 				(show_name)
 				(effects
 					(font
@@ -791,7 +790,7 @@
 				)
 			)
 			(property "Product" "BSC010N04LS"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(show_name)
 				(effects
 					(font
@@ -801,6 +800,26 @@
 				)
 			)
 			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "40V"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Polarity" "N"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -1298,7 +1317,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1307,7 +1326,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1334,7 +1353,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1627,15 +1646,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 135.89 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 125.73 93.98 0)
 			(effects
@@ -1647,15 +1657,6 @@
 		)
 		(property "Product" "S310FA"
 			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 135.89 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,15 +1802,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 123.19 109.22 0)
 			(effects
@@ -1821,15 +1813,6 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 123.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 123.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,15 +1959,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 120.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "BSC010N04LS"
 			(at 120.65 121.92 0)
 			(effects
@@ -2003,8 +1977,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 120.65 101.6 0)
+		(property "Rating" "40V"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,24 +2405,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 148.59 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 148.59 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c2e4a623-fc46-45e2-bfe9-6e1fad990af5")
 		)
@@ -2585,24 +2550,6 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 165.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,24 +2819,6 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
