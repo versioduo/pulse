@@ -218,6 +218,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -368,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Rating" "50V"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -1305,7 +1315,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:SMBJ36CA"
+		(symbol "V2_Diode:SMBJ33CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1316,19 +1326,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SMBJ36CA"
-				(at 0 -3.81 0)
+			(property "Value" "SMBJ33CA"
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SMB"
@@ -1341,7 +1353,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1349,8 +1361,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1358,8 +1370,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-SMBJ36CA-Q"
-				(at 0 -15.494 0)
+			(property "Mouser" "652-SMBJ33CA-Q"
+				(at 0 -23.114 0)
 				(show_name)
 				(effects
 					(font
@@ -1368,8 +1380,8 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "SMBJ36CA-Q"
-				(at 0 -10.16 0)
+			(property "Product" "SMBJ33CA-Q"
+				(at 0 -17.78 0)
 				(show_name)
 				(effects
 					(font
@@ -1379,7 +1391,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name)
 				(effects
 					(font
@@ -1388,8 +1400,8 @@
 					(hide yes)
 				)
 			)
-			(property "Rating" "36V"
-				(at 0 -12.7 0)
+			(property "Rating" "33V"
+				(at 0 -20.32 0)
 				(show_name)
 				(effects
 					(font
@@ -1398,7 +1410,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMBJ36CA_0_1"
+			(symbol "SMBJ33CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
@@ -1448,7 +1460,7 @@
 					)
 				)
 			)
-			(symbol "SMBJ36CA_1_1"
+			(symbol "SMBJ33CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1863,7 +1875,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1884,8 +1896,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 4.064 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1910,7 +1922,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" ""
 				(at 0 -14.732 0)
 				(effects
 					(font
@@ -1928,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1966,7 +1978,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2010,7 +2022,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2035,7 +2047,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" ""
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -2161,7 +2173,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2228,7 +2240,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 -13.97 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2237,7 +2249,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 4.572 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2263,7 +2275,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 -17.272 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2282,7 +2294,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -2303,7 +2315,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2944,7 +2956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -3010,7 +3022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -3095,15 +3107,6 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Product" "CNA6P1X7R1H106K250AE"
 			(at 120.65 96.52 0)
 			(effects
@@ -3115,6 +3118,15 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -3454,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 107.95 140.97 0)
 			(effects
 				(font
@@ -3623,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 154.94 125.73 0)
 			(effects
 				(font
@@ -3645,7 +3657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Diode:SMBJ36CA")
+		(lib_id "V2_Diode:SMBJ33CA")
 		(at 102.87 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3662,7 +3674,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ36CA"
+		(property "Value" "SMBJ33CA"
 			(at 111.125 81.2799 90)
 			(effects
 				(font
@@ -3688,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -3697,7 +3709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-SMBJ36CA-Q"
+		(property "Mouser" "652-SMBJ33CA-Q"
 			(at 110.236 80.01 0)
 			(effects
 				(font
@@ -3706,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "SMBJ36CA-Q"
+		(property "Product" "SMBJ33CA-Q"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -3724,7 +3736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "36V"
+		(property "Rating" "33V"
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -3793,7 +3805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 85.09 130.81 0)
 			(effects
 				(font
@@ -3963,7 +3975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 217.17 130.81 0)
 			(effects
 				(font
@@ -4028,7 +4040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 199.39 120.65 0)
 			(effects
 				(font
@@ -4384,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -4486,6 +4498,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59c172a5-3dbe-4db7-b183-57b40077ac3e")
 		)
@@ -4546,7 +4567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -4701,7 +4722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 167.64 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4718,7 +4739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -4744,7 +4765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 167.64 120.65 0)
 			(effects
 				(font
@@ -4973,7 +4994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 199.39 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4990,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 199.39 135.89 0)
 			(effects
 				(font
@@ -5016,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -5186,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 116.84 140.97 0)
 			(effects
 				(font
@@ -5288,6 +5309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb07210d-67ff-481d-b927-975eb7438980")
 		)
@@ -5348,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 193.04 81.28 0)
 			(effects
 				(font
@@ -5414,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 167.64 125.73 0)
 			(effects
 				(font
@@ -5826,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -5928,6 +5958,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 85.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37fa08f1-ad80-4884-a1c7-ad8bf851da7f")
 		)
@@ -5988,7 +6027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 85.09 140.97 0)
 			(effects
 				(font
@@ -6083,6 +6122,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 217.17 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,6 +6234,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8297af1b-3fe0-4a88-86e5-8603bf8b81cb")
 		)
@@ -6282,6 +6339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9aaa7492-f781-4ddd-bad7-fd3e08f62759")
 		)
@@ -6341,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 116.84 130.81 0)
 			(effects
 				(font

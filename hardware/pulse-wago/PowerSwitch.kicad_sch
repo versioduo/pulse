@@ -12,271 +12,6 @@
 		(comment 1 "Voltage + Current Sense")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "V2_Connector_WAGO:2065"
 			(pin_numbers
 				(hide yes)
@@ -289,24 +24,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 6.35 0)
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 3.81 0)
+			(property "Value" "WAGO 2065-100"
+				(at 9.144 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 0 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -332,8 +66,19 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+			(property "Manufacturer" "WAGO"
+				(at 0 -13.208 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2065-100/998-403"
+				(at 0 -16.51 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -387,6 +132,1028 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V2_Device:C_0603_0u1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.778 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0u1"
+				(at 1.778 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "810-CGA3E2X7R1H104MA"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_0u1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_0u1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:C_1210_10u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 1.524 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_1210"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "810-CNA6P1X7R1H106K2"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CNA6P1X7R1H106K250AE"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1210_10u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1210_10u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_100R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100R"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100RFKEAH"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100RFKEAHP"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_100R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_100R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_100k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100KFKEAC"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100KFKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_100k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_100k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 3.302 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW060310K0FKEAC"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW060310K0FKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_10k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_10k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Device:R_0603_2k7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2k7"
+				(at 1.778 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW06032K70FKEAC"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW06032K70FKEAC"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_2k7_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_2k7_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_Diode:RB501SM"
 			(pin_numbers
 				(hide yes)
@@ -413,8 +1180,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -6.985 0)
+			(property "Footprint" "V2_Diode_SMD:D_SOD-523"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -433,6 +1200,36 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "755-RB501SM-30FHT2R"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "RB501SM-30FHT2R"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semiconductor"
+				(at 0 -10.16 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -518,7 +1315,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:SMAJ36CA"
+		(symbol "V2_Diode:SMBJ33CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -529,22 +1326,24 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SMAJ24CA"
-				(at 0 -3.81 0)
+			(property "Value" "SMBJ33CA"
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "V2_Diode_SMD:D_SMB"
 				(at 0 -5.715 0)
 				(effects
 					(font
@@ -554,7 +1353,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -562,8 +1361,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -571,7 +1370,47 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ36CA_0_1"
+			(property "Mouser" "652-SMBJ33CA-Q"
+				(at 0 -23.114 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "SMBJ33CA-Q"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "33V"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ33CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27)
@@ -621,7 +1460,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ36CA_1_1"
+			(symbol "SMBJ33CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -693,7 +1532,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.infineon.com/cms/en/product/power/smart-power-switches/high-side-switches/profet-plus-24v-automotive-smart-high-side-switch/btt6010-1era/"
-				(at -5.08 -10.16 0)
+				(at 0 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -702,7 +1541,37 @@
 				)
 			)
 			(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
-				(at 0 0 0)
+				(at 0 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "726-BTT60101ERBXUMA1"
+				(at 0 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon"
+				(at 0 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "BTT60101ERBXUMA1"
+				(at 0 -45.72 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1006,7 +1875,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1019,7 +1888,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1027,8 +1896,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1053,8 +1922,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1071,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1109,7 +1978,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1131,7 +2000,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "V2_power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1144,7 +2013,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1153,7 +2022,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 3.556 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1178,8 +2047,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1256,7 +2125,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1269,7 +2138,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1278,11 +2147,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1303,8 +2173,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1357,7 +2227,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "V2_power:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1370,7 +2240,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1379,7 +2249,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1395,7 +2265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1405,7 +2275,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1424,7 +2294,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -1445,7 +2315,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1461,7 +2331,7 @@
 	)
 	(text "Supply Voltage"
 		(exclude_from_sim no)
-		(at 93.345 59.69 0)
+		(at 88.011 59.436 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1474,7 +2344,7 @@
 	)
 	(text "100k – Polarization of the output\nImprove immunity to electromagnetic\nnoise."
 		(exclude_from_sim no)
-		(at 129.54 156.21 0)
+		(at 115.824 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1486,7 +2356,7 @@
 	)
 	(text "Current sense ratio 3900\n9.5A / 3900 * 1350Ω = 3.3V"
 		(exclude_from_sim no)
-		(at 129.54 147.955 0)
+		(at 115.824 147.955 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1498,7 +2368,7 @@
 	)
 	(text "Voltage Sense"
 		(exclude_from_sim no)
-		(at 185.42 59.69 0)
+		(at 178.562 60.198 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1522,7 +2392,7 @@
 		)
 		(uuid "96d75cf2-3abd-442f-a24a-53e801cc1ce5")
 	)
-	(text "100R / Solenoid coil voltage divider\nSupplies reference voltage to a single channel\nwhile the +24V power is switched off."
+	(text "100R / Solenoid coil voltage divider\nSupplies reference voltage to a single channel\nwhile the +28V power is switched off."
 		(exclude_from_sim no)
 		(at 180.34 149.225 0)
 		(effects
@@ -1536,7 +2406,7 @@
 	)
 	(text "Resistance Sense"
 		(exclude_from_sim no)
-		(at 197.485 109.22 0)
+		(at 192.405 109.22 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1548,7 +2418,7 @@
 		(uuid "dcbb7800-411a-4c17-a971-c471cdc54e43")
 	)
 	(junction
-		(at 102.87 76.2)
+		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04b35f87-6312-47a2-bba3-3d093bfa10af")
@@ -1560,7 +2430,7 @@
 		(uuid "0fcab359-66e7-4128-a1f7-cc5f5698ba58")
 	)
 	(junction
-		(at 120.65 76.2)
+		(at 135.89 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e5c1891-5714-4784-b769-058b6bc9e8c8")
@@ -1572,7 +2442,7 @@
 		(uuid "1f432ba0-35de-492b-9d71-aa5ffabb36f0")
 	)
 	(junction
-		(at 102.87 83.82)
+		(at 118.11 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23895573-3b48-4d65-8b26-59d9f1931807")
@@ -1590,13 +2460,13 @@
 		(uuid "64cb1608-b393-4867-bfce-13717f469e92")
 	)
 	(junction
-		(at 217.17 125.73)
+		(at 212.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65302125-d9d7-444b-853d-e0ab24e2943d")
 	)
 	(junction
-		(at 199.39 125.73)
+		(at 194.31 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e982734-934d-42f2-9518-8c6656ef75c5")
@@ -1608,7 +2478,7 @@
 		(uuid "7147a6d7-4c1a-484c-a11a-76145854dd0e")
 	)
 	(junction
-		(at 132.08 76.2)
+		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894a2172-aabc-4327-ba4e-d534e6b3c119")
@@ -1618,12 +2488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7301665-9979-4415-ac94-3fe717f2b886")
-	)
-	(junction
-		(at 100.33 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a85cccec-94c0-4695-a450-2d349cc68e05")
 	)
 	(junction
 		(at 80.01 125.73)
@@ -1725,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 123.19) (xy 199.39 125.73)
+			(xy 194.31 123.19) (xy 194.31 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 76.2) (xy 156.21 76.2)
+			(xy 147.32 76.2) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 125.73) (xy 217.17 125.73)
+			(xy 194.31 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1762,6 +2626,16 @@
 			(type dash)
 		)
 		(uuid "5d0fe1e0-c087-400f-8723-60cafb72a991")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69485908-e2ff-4bd3-b138-2e7089a4d1f8")
 	)
 	(wire
 		(pts
@@ -1785,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 102.87 83.82)
+			(xy 111.76 83.82) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 76.2) (xy 120.65 76.2)
+			(xy 118.11 76.2) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 132.08 76.2)
+			(xy 135.89 76.2) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 76.2) (xy 102.87 76.2)
+			(xy 111.76 76.2) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 125.73) (xy 217.17 125.73)
+			(xy 229.87 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1963,7 +2837,7 @@
 		)
 		(uuid "fdfc0559-db3d-4d42-9a6c-722444e035f2")
 	)
-	(label "+24V-Supply"
+	(label "+28V-Supply"
 		(at 177.8 66.04 0)
 		(effects
 			(font
@@ -1983,7 +2857,7 @@
 		)
 		(uuid "3f668d80-d006-4f66-bc76-bb523c2c2034")
 	)
-	(label "+24V-Supply"
+	(label "+28V-Supply"
 		(at 97.79 120.65 0)
 		(effects
 			(font
@@ -2003,8 +2877,8 @@
 		)
 		(uuid "9fd0a105-15e0-44a8-8d86-badbd2d16761")
 	)
-	(label "+24V-Supply"
-		(at 156.21 76.2 180)
+	(label "+28V-Supply"
+		(at 171.45 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2012,6 +2886,16 @@
 			(justify right bottom)
 		)
 		(uuid "a85f07b6-c7d4-4fb3-86bc-f26b948a92ee")
+	)
+	(label "+28V-Supply"
+		(at 118.11 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc8cda5f-2c27-4b6a-ae76-0fe626499738")
 	)
 	(hierarchical_label "Enable"
 		(shape input)
@@ -2058,8 +2942,8 @@
 		(uuid "d9473e32-cd11-4f04-9fb6-5a3081764ccf")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 83.82 0)
+		(lib_id "V2_power:GND")
+		(at 118.11 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2067,7 +2951,7 @@
 		(dnp no)
 		(uuid "024f75e6-9b80-4916-9a2a-a09bc27f9ced")
 		(property "Reference" "#PWR01805"
-			(at 102.87 90.17 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,15 +2960,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 83.82 0)
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 83.82 0)
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,8 +2986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 83.82 0)
+		(property "Description" ""
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +3008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 218.44 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2146,6 +3031,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2166,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -2188,8 +3074,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 120.65 78.74 0)
+		(lib_id "V2_Device:C_1210_10u")
+		(at 135.89 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2197,7 +3083,7 @@
 		(dnp no)
 		(uuid "05197e81-01b3-48ee-b2ff-3a8c6a9cad41")
 		(property "Reference" "C1801"
-			(at 123.19 78.7462 0)
+			(at 138.43 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,15 +3092,16 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 124.46 81.28 0)
+			(at 138.43 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 120.65 78.74 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_1210"
+			(at 135.89 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,8 +3109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 78.74 0)
+		(property "Datasheet" ""
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +3119,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 120.65 78.74 0)
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CNA6P1X7R1H106K2"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CNA6P1X7R1H106K250AE"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +3179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_10k")
 		(at 99.06 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2280,8 +3203,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 125.73 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 83.312 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -2299,7 +3222,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 125.73 0)
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310K0FKEAC"
+			(at 76.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW060310K0FKEAC"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,8 +3282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 81.28 0)
+		(lib_id "V2_power:GND")
+		(at 147.32 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2332,7 +3291,7 @@
 		(dnp no)
 		(uuid "10d3cdac-c7b3-4f47-b685-b35ac27195b3")
 		(property "Reference" "#PWR01802"
-			(at 132.08 87.63 0)
+			(at 147.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,15 +3300,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 81.28 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +3318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 81.28 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,8 +3326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 81.28 0)
+		(property "Description" ""
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +3348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_10k")
 		(at 91.44 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2412,8 +3372,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 135.89 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 107.188 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +3381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -2431,7 +3391,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 135.89 0)
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310K0FKEAC"
+			(at 114.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW060310K0FKEAC"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +3451,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 104.14 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2478,6 +3474,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2498,7 +3495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -2520,7 +3517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_10k")
 		(at 208.28 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2537,15 +3534,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.28 73.025 90)
+			(at 208.28 72.771 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 208.28 76.2 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 224.028 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +3550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 76.2 0)
 			(effects
 				(font
@@ -2563,7 +3560,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 208.28 76.2 0)
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310K0FKEAC"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW060310K0FKEAC"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 228.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +3620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 151.13 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2610,6 +3643,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2630,7 +3664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -2652,8 +3686,8 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Diode:SMAJ36CA")
-		(at 102.87 80.01 90)
+		(lib_id "V2_Diode:SMBJ33CA")
+		(at 118.11 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2661,7 +3695,7 @@
 		(dnp no)
 		(uuid "2f0c1e86-913e-4046-98e7-5d6953942c50")
 		(property "Reference" "TVS1801"
-			(at 106.045 78.7399 90)
+			(at 121.285 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,16 +3703,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ36CA"
-			(at 111.125 81.2799 90)
+		(property "Value" "SMBJ33CA"
+			(at 126.365 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 108.585 80.01 0)
+		(property "Footprint" "V2_Diode_SMD:D_SMB"
+			(at 123.825 80.01 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -2687,7 +3721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 80.01 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,8 +3729,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 80.01 0)
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-SMBJ33CA-Q"
+			(at 141.224 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SMBJ33CA-Q"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "33V"
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +3790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 85.09 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2743,6 +3813,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2763,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 85.09 120.65 0)
 			(effects
 				(font
@@ -2785,7 +3856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_2k7")
 		(at 104.14 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2810,8 +3881,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 138.43 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 104.14 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 104.14 138.43 0)
 			(effects
 				(font
@@ -2829,7 +3900,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 104.14 138.43 0)
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06032K70FKEAC"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06032K70FKEAC"
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 104.14 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,8 +3960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 217.17 130.81 0)
+		(lib_id "V2_power:GND")
+		(at 212.09 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2862,7 +3969,7 @@
 		(dnp no)
 		(uuid "48d27f21-87d5-461d-b5c9-3cc4006b3fca")
 		(property "Reference" "#PWR01814"
-			(at 217.17 137.16 0)
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,15 +3978,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 135.89 0)
+			(at 212.09 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,8 +4004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 130.81 0)
+		(property "Description" ""
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,8 +4026,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 199.39 118.11 0)
+		(lib_id "V2_power:+3V3")
+		(at 194.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2927,7 +4035,7 @@
 		(dnp no)
 		(uuid "4be24b04-92d9-480f-9a4a-26aef9b95754")
 		(property "Reference" "#PWR01806"
-			(at 199.39 121.92 0)
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +4044,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 113.03 0)
+			(at 194.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 118.11 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 118.11 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,8 +4069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 118.11 0)
+		(property "Description" ""
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,32 +4092,31 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 95.25 83.82 180)
+		(at 106.68 83.82 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "58c65975-1860-470a-96e3-22d5c6bb7a13")
 		(property "Reference" "J1802"
-			(at 90.932 83.82 0)
+			(at 91.186 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 95.25 87.63 0)
+		(property "Value" "WAGO 2065-100"
+			(at 96.266 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 95.25 83.82 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,8 +4124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 80.01 0)
+		(property "Datasheet" ""
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +4134,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 83.82 0)
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 106.68 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 106.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +4173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_10k")
 		(at 193.04 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3066,15 +4191,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 196.85 81.28 0)
+			(at 197.358 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.04 78.74 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 193.04 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +4207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -3092,7 +4217,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 193.04 78.74 0)
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310K0FKEAC"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW060310K0FKEAC"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +4277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_100k")
 		(at 193.04 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3134,15 +4295,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 198.12 73.025 0)
+			(at 198.12 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.04 71.12 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 193.04 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 71.12 0)
 			(effects
 				(font
@@ -3160,7 +4321,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 193.04 71.12 0)
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603100KFKEAC"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100KFKEAC"
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +4381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 133.35 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3207,6 +4404,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3227,7 +4425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 133.35 135.89 0)
 			(effects
 				(font
@@ -3249,7 +4447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u1")
 		(at 151.13 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3267,15 +4465,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 156.21 125.7362 0)
+			(at 153.67 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 151.13 123.19 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 151.13 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -3293,7 +4492,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 123.19 0)
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 151.13 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,8 +4552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 81.28 0)
+		(lib_id "V2_power:GND")
+		(at 135.89 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3326,7 +4561,7 @@
 		(dnp no)
 		(uuid "6d36f39c-ee8b-49e8-93d3-298903ce6ff1")
 		(property "Reference" "#PWR01801"
-			(at 120.65 87.63 0)
+			(at 135.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,15 +4570,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 86.36 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 81.28 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +4588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 81.28 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,8 +4596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 81.28 0)
+		(property "Description" ""
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,6 +4669,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "726-BTT60101ERBXUMA1"
+			(at 123.19 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 123.19 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BTT60101ERBXUMA1"
+			(at 123.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9a8eb96-92d6-45a5-a39b-5615c9a33c49")
 		)
@@ -3488,7 +4751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 163.83 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3505,7 +4768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -3531,7 +4794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 163.83 120.65 0)
 			(effects
 				(font
@@ -3553,7 +4816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_100k")
 		(at 82.55 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3570,15 +4833,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 83.185 116.84 90)
+			(at 83.058 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 120.65 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 66.802 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +4849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -3596,7 +4859,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 82.55 120.65 0)
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603100KFKEAC"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100KFKEAC"
+			(at 64.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +4919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_100k")
 		(at 138.43 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3638,15 +4937,15 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 143.51 125.7299 0)
+			(at 143.51 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.43 123.19 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 138.43 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +4953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3664,7 +4963,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 138.43 123.19 0)
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603100KFKEAC"
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 138.43 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100KFKEAC"
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,8 +5023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 199.39 130.81 180)
+		(lib_id "V2_power:+28V")
+		(at 194.31 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3697,7 +5032,7 @@
 		(dnp no)
 		(uuid "916ccd8a-035b-401d-bb69-7e07a02f171c")
 		(property "Reference" "#PWR01813"
-			(at 199.39 127 0)
+			(at 194.31 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,8 +5040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 199.39 135.89 0)
+		(property "Value" "+28V"
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 130.81 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +5058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 130.81 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,8 +5066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 199.39 130.81 0)
+		(property "Description" ""
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,8 +5088,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 199.39 120.65 0)
+		(lib_id "V2_Device:R_0603_100R")
+		(at 194.31 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3762,7 +5097,7 @@
 		(dnp no)
 		(uuid "960ec836-4a3b-493d-a16d-ad6919ed941c")
 		(property "Reference" "R1805"
-			(at 201.93 120.015 0)
+			(at 196.85 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,15 +5106,15 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 204.47 122.555 0)
+			(at 199.39 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 120.65 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 194.31 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,8 +5122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 120.65 0)
+		(property "Datasheet" ""
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +5132,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 199.39 120.65 0)
+			(at 194.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0603100RFKEAH"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "330mW"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100RFKEAHP"
+			(at 194.31 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +5192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 113.03 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3844,6 +5215,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3864,7 +5236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -3886,8 +5258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 78.74 0)
+		(lib_id "V2_Device:C_0603_0u1")
+		(at 147.32 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3895,7 +5267,7 @@
 		(dnp no)
 		(uuid "9fbbaf82-d95d-4d55-b33f-8b573ed6f5f5")
 		(property "Reference" "C1802"
-			(at 134.62 78.7462 0)
+			(at 149.86 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,15 +5276,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 137.16 81.2862 0)
+			(at 149.86 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 132.08 78.74 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 147.32 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,8 +5293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 78.74 0)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +5303,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 78.74 0)
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 147.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +5363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3977,6 +5386,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3997,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 193.04 81.28 0)
 			(effects
 				(font
@@ -4019,7 +5429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 163.83 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4042,6 +5452,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4062,7 +5473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -4084,8 +5495,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 100.33 76.2 0)
+		(lib_id "V2_power:PWR_FLAG")
+		(at 102.87 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +5504,7 @@
 		(dnp no)
 		(uuid "aefa1015-079a-4085-ad26-5a327caf2252")
 		(property "Reference" "#FLG01801"
-			(at 100.33 74.295 0)
+			(at 102.87 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +5513,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 71.755 0)
+			(at 92.71 66.929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +5521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 76.2 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,8 +5529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 100.33 76.2 0)
+		(property "Datasheet" ""
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +5539,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 100.33 76.2 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +5561,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:RB501SM")
-		(at 199.39 128.27 90)
+		(at 194.31 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4158,7 +5569,7 @@
 		(dnp no)
 		(uuid "b03f561c-bee5-4286-b716-21252d83b2a5")
 		(property "Reference" "D1801"
-			(at 208.28 127.9526 90)
+			(at 203.2 127.9526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,15 +5578,15 @@
 			)
 		)
 		(property "Value" "RB501SM"
-			(at 207.01 131.1276 90)
+			(at 201.93 131.1276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 206.375 128.27 0)
+		(property "Footprint" "V2_Diode_SMD:D_SOD-523"
+			(at 201.295 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 128.27 0)
+			(at 194.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +5604,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 128.27 0)
+			(at 194.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "755-RB501SM-30FHT2R"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RB501SM-30FHT2R"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 204.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,32 +5656,31 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 95.25 76.2 180)
+		(at 106.68 76.2 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd474638-99f1-4f91-baee-137e1f108de4")
 		(property "Reference" "J1801"
-			(at 90.932 76.2 0)
+			(at 91.186 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 95.25 80.01 0)
+		(property "Value" "WAGO 2065-100"
+			(at 96.266 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 95.25 76.2 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,8 +5688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 72.39 0)
+		(property "Datasheet" ""
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +5698,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 76.2 0)
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 106.68 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +5737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "V2_Device:R_0603_2k7")
 		(at 113.03 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4307,8 +5762,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 138.43 0)
+		(property "Footprint" "V2_Resistor_SMD:R_0603"
+			(at 113.03 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 113.03 138.43 0)
 			(effects
 				(font
@@ -4326,7 +5781,43 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 113.03 138.43 0)
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06032K70FKEAC"
+			(at 113.03 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06032K70FKEAC"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 113.03 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +5841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 138.43 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4373,6 +5864,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4393,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -4415,7 +5907,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u1")
 		(at 85.09 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4433,15 +5925,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 79.375 140.9762 0)
+			(at 86.868 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 85.09 138.43 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 85.09 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -4459,7 +5952,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 138.43 0)
+			(at 85.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +6012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "V2_power:GND")
 		(at 85.09 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4506,6 +6035,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4526,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 85.09 140.97 0)
 			(effects
 				(font
@@ -4548,8 +6078,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 128.27 0)
+		(lib_id "V2_Device:C_0603_0u1")
+		(at 212.09 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4557,7 +6087,7 @@
 		(dnp no)
 		(uuid "dcde216e-71e1-4ea5-bd4d-592ad2571552")
 		(property "Reference" "C1806"
-			(at 219.71 128.2762 0)
+			(at 214.63 128.2762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,15 +6096,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 222.25 130.8162 0)
+			(at 213.868 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 217.17 128.27 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 212.09 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,8 +6113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 217.17 128.27 0)
+		(property "Datasheet" ""
+			(at 212.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +6123,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 128.27 0)
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 212.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +6183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u1")
 		(at 163.83 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4634,15 +6201,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 168.91 125.73 0)
+			(at 166.37 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 163.83 123.19 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 163.83 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 163.83 123.19 0)
 			(effects
 				(font
@@ -4660,7 +6228,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 123.19 0)
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 163.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 163.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +6288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "V2_Device:C_0603_0u1")
 		(at 218.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4702,15 +6306,16 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 223.52 81.28 0)
+			(at 221.488 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 218.44 78.74 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+			(at 218.44 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +6323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -4728,7 +6333,43 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 78.74 0)
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 218.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +6393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "V2_power:+3V3")
 		(at 113.03 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4795,7 +6436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 113.03 130.81 0)
 			(effects
 				(font

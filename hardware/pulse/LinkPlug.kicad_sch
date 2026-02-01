@@ -372,6 +372,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -1127,7 +1137,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1152,7 +1162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" ""
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -1252,7 +1262,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1277,7 +1287,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -1403,7 +1413,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1470,7 +1480,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 -13.97 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1479,7 +1489,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 4.572 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1505,7 +1515,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 -17.272 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1524,7 +1534,7 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -1545,7 +1555,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2002,7 +2012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -2542,7 +2552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -2608,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 140.97 127 0)
 			(effects
 				(font
@@ -2673,7 +2683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 140.97 132.08 0)
 			(effects
 				(font
@@ -2739,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 147.32 97.79 0)
 			(effects
 				(font
@@ -2804,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 153.67 127 0)
 			(effects
 				(font
@@ -2869,7 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" ""
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -2935,7 +2945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -3001,7 +3011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 153.67 132.08 0)
 			(effects
 				(font
@@ -3096,6 +3106,15 @@
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
 			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 167.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

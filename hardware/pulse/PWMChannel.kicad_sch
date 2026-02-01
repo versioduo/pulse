@@ -217,6 +217,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -1054,7 +1064,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_power:+24V"
+		(symbol "V2_power:+28V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1075,8 +1085,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
-				(at 0 4.064 0)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1101,7 +1111,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" ""
 				(at 0 -14.732 0)
 				(effects
 					(font
@@ -1119,7 +1129,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+28V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1157,7 +1167,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+28V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1201,7 +1211,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1226,7 +1236,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -1352,7 +1362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1820,6 +1830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c77c4210-8f48-4345-a1cd-926d1f8c526e")
 		)
@@ -2118,7 +2137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 156.21 132.08 0)
 			(effects
 				(font
@@ -2200,7 +2219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+24V")
+		(lib_id "V2_power:+28V")
 		(at 160.02 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2217,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+28V"
 			(at 160.02 86.995 0)
 			(effects
 				(font
@@ -2243,7 +2262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" ""
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -2674,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -2942,7 +2961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 156.21 127 0)
 			(effects
 				(font
