@@ -411,17 +411,16 @@
 				)
 			)
 			(property "Value" "V2-logo"
-				(at -4.572 -5.588 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -8.128 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -439,15 +438,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4275,7 +4265,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_2mm"
+			(property "Value" "2mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4302,15 +4292,6 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4367,7 +4348,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_3mm"
+			(property "Value" "3mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4394,16 +4375,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4683,7 +4655,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Order_Number"
+		(symbol "V2_Production:Revision"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -4695,7 +4667,7 @@
 					)
 				)
 			)
-			(property "Value" "Order_Number"
+			(property "Value" ""
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -4704,7 +4676,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Production:Order_Number"
+			(property "Footprint" "V2_Production:Revision"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4731,26 +4703,26 @@
 					(hide yes)
 				)
 			)
-			(symbol "Order_Number_0_0"
-				(text "ORDER-NUMBER"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Order_Number_0_1"
+			(symbol "Revision_0_1"
 				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Revision_1_1"
+				(text "Revision"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -8524,7 +8496,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 185.42 190.5 0)
+		(at 240.03 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8532,15 +8504,15 @@
 		(dnp no)
 		(uuid "124f68d9-b53f-445a-ae5e-ab115a05e72b")
 		(property "Reference" "H108"
-			(at 185.42 185.42 0)
+			(at 246.126 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 185.42 187.325 0)
+		(property "Value" "2mm"
+			(at 246.126 178.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8520,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 185.42 195.58 0)
+			(at 240.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 190.5 0)
+			(at 240.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,16 +8538,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 185.42 190.5 0)
+			(at 240.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8738,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 185.42 172.72 0)
+		(at 240.03 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8783,15 +8746,15 @@
 		(dnp no)
 		(uuid "19c02e91-471d-4ed9-8b1c-9a3b1c73a545")
 		(property "Reference" "H105"
-			(at 185.42 167.64 0)
+			(at 246.126 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 185.42 169.545 0)
+		(property "Value" "2mm"
+			(at 246.126 166.243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8762,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 185.42 177.8 0)
+			(at 240.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 172.72 0)
+			(at 240.03 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,16 +8780,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 185.42 172.72 0)
+			(at 240.03 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9176,7 @@
 	)
 	(symbol
 		(lib_id "V2_PCB_Devices:Button-bottom")
-		(at 211.455 161.29 0)
+		(at 186.055 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9230,7 +9184,7 @@
 		(dnp no)
 		(uuid "2ea90a9c-c79e-495b-b221-c6ea8643fdb4")
 		(property "Reference" "SWB101"
-			(at 207.645 154.94 0)
+			(at 191.135 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9193,7 @@
 			)
 		)
 		(property "Value" "Button-bottom"
-			(at 211.455 158.115 0)
+			(at 198.247 170.307 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9201,7 @@
 			)
 		)
 		(property "Footprint" "V2_PCB_Devices:PCB_Button-bottom"
-			(at 216.535 168.91 0)
+			(at 191.135 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 161.29 0)
+			(at 186.055 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 161.29 0)
+			(at 186.055 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9228,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 211.455 161.29 0)
+			(at 186.055 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9654,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_3mm")
-		(at 256.54 179.07 0)
+		(at 256.54 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9708,7 +9662,7 @@
 		(dnp no)
 		(uuid "413d4a39-e1e2-4672-b240-a47741ae799c")
 		(property "Reference" "H106"
-			(at 254.635 172.7199 0)
+			(at 259.715 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,8 +9670,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
-			(at 257.175 175.2599 0)
+		(property "Value" "3mm"
+			(at 262.255 166.6239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +9679,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_3mm"
-			(at 256.54 184.15 0)
+			(at 256.54 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +9688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 179.07 0)
+			(at 256.54 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,16 +9697,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 256.54 179.07 0)
+			(at 256.54 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9716,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Plus")
-		(at 199.39 144.78 0)
+		(at 220.98 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9780,7 +9725,7 @@
 		(fields_autoplaced yes)
 		(uuid "45150af7-3bc2-4240-a93b-1a4bd9cdfde0")
 		(property "Reference" "ICON101"
-			(at 202.565 144.145 0)
+			(at 224.155 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9734,7 @@
 			)
 		)
 		(property "Value" "Plus"
-			(at 202.565 146.685 0)
+			(at 224.155 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +9744,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Plus_Small"
-			(at 199.39 152.4 0)
+			(at 220.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 144.78 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +9762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 144.78 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9771,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 199.39 144.78 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10695,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 185.42 154.94 0)
+		(at 240.03 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10758,15 +10703,15 @@
 		(dnp no)
 		(uuid "6cd046e4-3a13-4326-82b8-f9205dfbba3d")
 		(property "Reference" "H101"
-			(at 185.42 149.86 0)
+			(at 246.126 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 185.42 151.765 0)
+		(property "Value" "2mm"
+			(at 246.126 153.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10774,7 +10719,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 185.42 160.02 0)
+			(at 240.03 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 154.94 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,16 +10737,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 185.42 154.94 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,8 +10953,8 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Order_Number")
-		(at 163.195 188.595 0)
+		(lib_id "V2_Production:Revision")
+		(at 159.385 178.435 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11026,15 +10962,15 @@
 		(dnp no)
 		(uuid "7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(property "Reference" "INFO102"
-			(at 163.195 184.785 0)
+			(at 170.561 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Order_Number"
-			(at 163.195 191.135 0)
+		(property "Value" ""
+			(at 159.385 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,8 +10978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
-			(at 163.195 193.675 0)
+		(property "Footprint" "V2_Production:Revision"
+			(at 159.385 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +10988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 188.595 0)
+			(at 159.385 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +10997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.195 188.595 0)
+			(at 159.385 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11016,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 185.42 181.61 0)
+		(at 240.03 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11088,15 +11024,15 @@
 		(dnp no)
 		(uuid "7f4ad709-999b-4fb6-8319-47ff0a5c3bda")
 		(property "Reference" "H107"
-			(at 185.42 176.53 0)
+			(at 246.126 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 185.42 178.435 0)
+		(property "Value" "2mm"
+			(at 246.126 172.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11040,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 185.42 186.69 0)
+			(at 240.03 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 181.61 0)
+			(at 240.03 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,16 +11058,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 185.42 181.61 0)
+			(at 240.03 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11142,7 @@
 	)
 	(symbol
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
-		(at 233.045 158.115 0)
+		(at 186.055 153.035 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11223,7 +11150,7 @@
 		(dnp no)
 		(uuid "827036bb-51e3-4843-bcd9-3cef96583bb3")
 		(property "Reference" "PLUG101"
-			(at 228.6 149.8599 0)
+			(at 191.262 151.3839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11232,7 +11159,7 @@
 			)
 		)
 		(property "Value" "PCB_Plug_Horizontal"
-			(at 233.68 153.0349 0)
+			(at 201.168 154.5589 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,7 +11167,7 @@
 			)
 		)
 		(property "Footprint" "V2_PCB_Devices:PCB_Plug_Horizontal"
-			(at 236.855 173.355 0)
+			(at 189.865 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.045 160.655 0)
+			(at 186.055 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.045 158.115 0)
+			(at 186.055 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11194,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 233.045 158.115 0)
+			(at 186.055 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11213,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Arrow_In")
-		(at 220.98 144.78 0)
+		(at 220.98 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11295,7 +11222,7 @@
 		(fields_autoplaced yes)
 		(uuid "82b13c15-4632-42a7-8b6a-be178093564a")
 		(property "Reference" "ICON102"
-			(at 223.52 144.7799 0)
+			(at 223.52 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11304,7 +11231,7 @@
 			)
 		)
 		(property "Value" "Arrow_In"
-			(at 218.44 149.86 0)
+			(at 218.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,7 +11241,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Arrow_In"
-			(at 220.98 152.4 0)
+			(at 220.98 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 144.78 0)
+			(at 220.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11259,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 144.78 0)
+			(at 220.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11268,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 220.98 144.78 0)
+			(at 220.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11393,7 @@
 	)
 	(symbol
 		(lib_id "V2_Production:Layer_Numbers")
-		(at 212.725 175.26 0)
+		(at 159.385 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11474,7 +11401,7 @@
 		(dnp no)
 		(uuid "876d56f7-a978-4186-816c-574fe505860f")
 		(property "Reference" "INFO101"
-			(at 208.788 171.45 0)
+			(at 166.624 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +11410,7 @@
 			)
 		)
 		(property "Value" "Layer_Numbers"
-			(at 212.1234 171.7885 0)
+			(at 158.7834 166.7085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11419,7 @@
 			)
 		)
 		(property "Footprint" "V2_Production:Layer_Numbers"
-			(at 212.725 181.61 0)
+			(at 159.385 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +11428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.725 177.8 0)
+			(at 159.385 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.725 175.26 0)
+			(at 159.385 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11816,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Board_pulse")
-		(at 162.56 177.165 0)
+		(at 158.75 161.925 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11897,7 +11824,7 @@
 		(dnp no)
 		(uuid "95618c50-0c45-46aa-acb1-04b8065073f4")
 		(property "Reference" "ICON105"
-			(at 158.496 172.974 0)
+			(at 164.592 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11833,7 @@
 			)
 		)
 		(property "Value" "Board_pulse"
-			(at 162.56 173.3549 0)
+			(at 158.75 158.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11842,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Board_pulse_Small"
-			(at 162.56 182.245 0)
+			(at 158.75 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +11851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 177.165 0)
+			(at 158.75 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,7 +11860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 177.165 0)
+			(at 158.75 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11869,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 162.56 177.165 0)
+			(at 158.75 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +11888,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 271.78 146.05 0)
+		(at 271.78 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11969,7 +11896,7 @@
 		(dnp no)
 		(uuid "977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(property "Reference" "FID101"
-			(at 274.828 146.05 0)
+			(at 274.828 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +11905,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 271.78 142.24 0)
+			(at 271.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +11914,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 271.78 151.13 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +11923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 146.05 0)
+			(at 271.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +11932,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 146.05 0)
+			(at 271.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12046,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 185.42 163.83 0)
+		(at 240.03 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12127,15 +12054,15 @@
 		(dnp no)
 		(uuid "adb048ee-edc5-4a6b-b0fa-1ff92fbc4b0a")
 		(property "Reference" "H103"
-			(at 185.42 158.75 0)
+			(at 246.126 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
-			(at 185.42 160.655 0)
+		(property "Value" "2mm"
+			(at 246.126 159.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +12070,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 185.42 168.91 0)
+			(at 240.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 163.83 0)
+			(at 240.03 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,16 +12088,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 185.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 185.42 163.83 0)
+			(at 240.03 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12634,7 +12552,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 271.78 151.13 0)
+		(at 271.78 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12642,7 +12560,7 @@
 		(dnp no)
 		(uuid "d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(property "Reference" "FID102"
-			(at 274.828 151.13 0)
+			(at 274.828 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,7 +12569,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 273.05 147.32 0)
+			(at 273.05 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12578,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 271.78 156.21 0)
+			(at 271.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 151.13 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +12596,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 151.13 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13080,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 271.78 156.21 0)
+		(at 271.78 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13170,7 +13088,7 @@
 		(dnp no)
 		(uuid "f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(property "Reference" "FID103"
-			(at 274.828 156.21 0)
+			(at 274.828 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +13097,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 271.78 152.4 0)
+			(at 271.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13106,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 271.78 161.29 0)
+			(at 271.78 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 156.21 0)
+			(at 271.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13124,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 156.21 0)
+			(at 271.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13225,7 +13143,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_3mm")
-		(at 256.54 167.64 0)
+		(at 256.54 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13233,7 +13151,7 @@
 		(dnp no)
 		(uuid "f661d9d4-0375-46e0-925e-0768422629af")
 		(property "Reference" "H104"
-			(at 254.635 161.2899 0)
+			(at 259.715 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,8 +13159,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
-			(at 257.175 163.8299 0)
+		(property "Value" "3mm"
+			(at 262.255 160.2739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,7 +13168,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_3mm"
-			(at 256.54 172.72 0)
+			(at 256.54 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,7 +13177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 167.64 0)
+			(at 256.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,16 +13186,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 256.54 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 256.54 167.64 0)
+			(at 256.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,7 +13205,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Arrow_Out")
-		(at 240.03 144.78 0)
+		(at 220.98 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13305,7 +13214,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6ba1264-8664-4cf4-8f09-9cf4c36c84ef")
 		(property "Reference" "ICON103"
-			(at 243.84 144.7799 0)
+			(at 224.79 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13314,7 +13223,7 @@
 			)
 		)
 		(property "Value" "Arrow_Out"
-			(at 237.49 149.86 0)
+			(at 218.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13233,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Arrow_Out"
-			(at 240.03 152.4 0)
+			(at 220.98 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 144.78 0)
+			(at 220.98 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 144.78 0)
+			(at 220.98 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +13260,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 240.03 144.78 0)
+			(at 220.98 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +13382,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_3mm")
-		(at 256.54 156.21 0)
+		(at 256.54 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13481,7 +13390,7 @@
 		(dnp no)
 		(uuid "ff4fc8b4-ae8b-465d-b704-44e6a7a400a4")
 		(property "Reference" "H102"
-			(at 254.635 149.8599 0)
+			(at 259.715 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,8 +13398,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
-			(at 257.175 152.3999 0)
+		(property "Value" "3mm"
+			(at 262.255 153.9239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13498,7 +13407,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_3mm"
-			(at 256.54 161.29 0)
+			(at 256.54 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +13416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 156.21 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13516,16 +13425,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 256.54 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 256.54 156.21 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13544,7 +13444,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:V2-logo")
-		(at 163.195 160.02 0)
+		(at 159.385 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13552,7 +13452,7 @@
 		(dnp no)
 		(uuid "ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(property "Reference" "ICON104"
-			(at 159.004 154.94 0)
+			(at 163.576 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13561,7 +13461,7 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at 163.195 156.21 0)
+			(at 159.385 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13570,7 +13470,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Logo_Small"
-			(at 163.195 167.64 0)
+			(at 159.385 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 160.02 0)
+			(at 159.385 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,16 +13488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.195 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 163.195 160.02 0)
+			(at 159.385 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13507,7 @@
 	)
 	(symbol
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
-		(at 233.045 173.99 0)
+		(at 186.055 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13624,7 +13515,7 @@
 		(dnp no)
 		(uuid "ff928ce4-7b6a-40dc-844c-d7a7fa38d0a3")
 		(property "Reference" "PLUG102"
-			(at 228.6 165.7349 0)
+			(at 191.262 159.6389 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +13524,7 @@
 			)
 		)
 		(property "Value" "PCB_Plug_Horizontal"
-			(at 233.68 168.9099 0)
+			(at 201.168 162.8139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13641,7 +13532,7 @@
 			)
 		)
 		(property "Footprint" "V2_PCB_Devices:PCB_Plug_Horizontal"
-			(at 236.855 189.23 0)
+			(at 189.865 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.045 176.53 0)
+			(at 186.055 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.045 173.99 0)
+			(at 186.055 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13559,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 233.045 173.99 0)
+			(at 186.055 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
