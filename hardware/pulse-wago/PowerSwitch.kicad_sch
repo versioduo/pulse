@@ -12,127 +12,7 @@
 		(comment 1 "Voltage + Current Sense")
 	)
 	(lib_symbols
-		(symbol "V2_Connector_WAGO:2065"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.524 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WAGO 2065-100"
-				(at 9.144 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2065_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:C_0603_0u1"
+		(symbol "V2_Capacitor:0603_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -246,7 +126,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_0u1_0_1"
+			(symbol "0603_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -272,7 +152,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_0u1_1_1"
+			(symbol "0603_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -312,7 +192,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_1210_10u"
+		(symbol "V2_Capacitor:1210_10u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -426,7 +306,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1210_10u_0_1"
+			(symbol "1210_10u_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -452,7 +332,7 @@
 					)
 				)
 			)
-			(symbol "C_1210_10u_1_1"
+			(symbol "1210_10u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -492,35 +372,35 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:R_0603_100R"
+		(symbol "V2_Connector_WAGO:2065"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 3.81 -1.27 0)
+			(property "Reference" "J"
+				(at 1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+			(property "Value" "WAGO 2065-100"
+				(at 9.144 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Connector_WAGO:2065-100"
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -529,6 +409,15 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -537,17 +426,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW0603100RFKEAH"
-				(at 0 -25.4 0)
+			(property "Manufacturer" "WAGO"
+				(at 0 -13.208 0)
 				(show_name)
 				(effects
 					(font
@@ -556,8 +436,8 @@
 					(hide yes)
 				)
 			)
-			(property "Rating" "330mW"
-				(at 0 -22.86 0)
+			(property "Product" "2065-100/998-403"
+				(at 0 -16.51 0)
 				(show_name)
 				(effects
 					(font
@@ -566,62 +446,35 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "2065_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
 					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW0603100RFKEAHP"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_100R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
 					(stroke
-						(width 0.2032)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_0603_100R_1_1"
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,521 +482,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_100k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW0603100KFKEAC"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "100mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW0603100KFKEAC"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_100k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_100k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_10k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW060310K0FKEAC"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW060310K0FKEAC"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "100mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_10k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_10k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_2k7"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2k7"
-				(at 1.778 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW06032K70FKEAC"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW06032K70FKEAC"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "100mW"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_2k7_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_2k7_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1865,6 +1203,668 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_100R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100R"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100RFKEAH"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100RFKEAHP"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_100R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_100R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_100k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100KFKEAC"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100KFKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_100k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_100k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 3.302 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW060310K0FKEAC"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW060310K0FKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_10k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_10k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_2k7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2k7"
+				(at 1.778 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW06032K70FKEAC"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW06032K70FKEAC"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_2k7_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_2k7_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "024f75e6-9b80-4916-9a2a-a09bc27f9ced")
-		(property "Reference" "#PWR01805"
+		(property "Reference" "#PWR1805"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -3001,7 +3001,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01805")
+					(reference "#PWR1805")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03facdcc-acf7-4329-a0a1-1223e8879803")
-		(property "Reference" "#PWR01804"
+		(property "Reference" "#PWR1804"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -3067,14 +3067,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01804")
+					(reference "#PWR1804")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_1210_10u")
+		(lib_id "V2_Capacitor:1210_10u")
 		(at 135.89 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3179,7 +3179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_10k")
+		(lib_id "V2_Resistor:0603_10k")
 		(at 99.06 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3290,7 +3290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10d3cdac-c7b3-4f47-b685-b35ac27195b3")
-		(property "Reference" "#PWR01802"
+		(property "Reference" "#PWR1802"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -3341,14 +3341,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01802")
+					(reference "#PWR1802")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_10k")
+		(lib_id "V2_Resistor:0603_10k")
 		(at 91.44 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3459,7 +3459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27da3426-286d-4e08-a274-566ff1548749")
-		(property "Reference" "#PWR01817"
+		(property "Reference" "#PWR1817"
 			(at 104.14 147.32 0)
 			(effects
 				(font
@@ -3510,14 +3510,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01817")
+					(reference "#PWR1817")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_10k")
+		(lib_id "V2_Resistor:0603_10k")
 		(at 208.28 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3628,7 +3628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ef2dae8-0f60-4216-a6a7-83d820567af7")
-		(property "Reference" "#PWR01810"
+		(property "Reference" "#PWR1810"
 			(at 151.13 132.08 0)
 			(effects
 				(font
@@ -3679,7 +3679,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01810")
+					(reference "#PWR1810")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37f2f530-8fb5-44d7-bcf6-b7db9f8ca4d6")
-		(property "Reference" "#PWR01807"
+		(property "Reference" "#PWR1807"
 			(at 91.44 120.65 0)
 			(effects
 				(font
@@ -3849,14 +3849,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01807")
+					(reference "#PWR1807")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_2k7")
+		(lib_id "V2_Resistor:0603_2k7")
 		(at 104.14 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3968,7 +3968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48d27f21-87d5-461d-b5c9-3cc4006b3fca")
-		(property "Reference" "#PWR01814"
+		(property "Reference" "#PWR1814"
 			(at 212.09 137.16 0)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01814")
+					(reference "#PWR1814")
 					(unit 1)
 				)
 			)
@@ -4034,7 +4034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be24b04-92d9-480f-9a4a-26aef9b95754")
-		(property "Reference" "#PWR01806"
+		(property "Reference" "#PWR1806"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -4084,7 +4084,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01806")
+					(reference "#PWR1806")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_10k")
+		(lib_id "V2_Resistor:0603_10k")
 		(at 193.04 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4277,7 +4277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_100k")
+		(lib_id "V2_Resistor:0603_100k")
 		(at 193.04 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4389,7 +4389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6845e73c-8657-4b8c-88cc-5ccf399609c8")
-		(property "Reference" "#PWR01815"
+		(property "Reference" "#PWR1815"
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -4440,14 +4440,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01815")
+					(reference "#PWR1815")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 151.13 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4560,7 +4560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d36f39c-ee8b-49e8-93d3-298903ce6ff1")
-		(property "Reference" "#PWR01801"
+		(property "Reference" "#PWR1801"
 			(at 135.89 87.63 0)
 			(effects
 				(font
@@ -4611,7 +4611,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01801")
+					(reference "#PWR1801")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "771d3267-958c-403b-8eee-a1a3ce6ec8f7")
-		(property "Reference" "#PWR01808"
+		(property "Reference" "#PWR1808"
 			(at 163.83 124.46 0)
 			(effects
 				(font
@@ -4809,14 +4809,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01808")
+					(reference "#PWR1808")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_100k")
+		(lib_id "V2_Resistor:0603_100k")
 		(at 82.55 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4919,7 +4919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_100k")
+		(lib_id "V2_Resistor:0603_100k")
 		(at 138.43 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5031,7 +5031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "916ccd8a-035b-401d-bb69-7e07a02f171c")
-		(property "Reference" "#PWR01813"
+		(property "Reference" "#PWR1813"
 			(at 194.31 127 0)
 			(effects
 				(font
@@ -5081,14 +5081,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01813")
+					(reference "#PWR1813")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_100R")
+		(lib_id "V2_Resistor:0603_100R")
 		(at 194.31 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5200,7 +5200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cd9c4ca-5e36-4837-819b-2c01c0df3a99")
-		(property "Reference" "#PWR01818"
+		(property "Reference" "#PWR1818"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -5251,14 +5251,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01818")
+					(reference "#PWR1818")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 147.32 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5371,7 +5371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6cf3ad6-76f4-4052-8c52-fae865016e59")
-		(property "Reference" "#PWR01803"
+		(property "Reference" "#PWR1803"
 			(at 193.04 87.63 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01803")
+					(reference "#PWR1803")
 					(unit 1)
 				)
 			)
@@ -5437,7 +5437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaea1dd9-5271-4195-bfde-8653572aaee7")
-		(property "Reference" "#PWR01811"
+		(property "Reference" "#PWR1811"
 			(at 163.83 132.08 0)
 			(effects
 				(font
@@ -5488,7 +5488,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01811")
+					(reference "#PWR1811")
 					(unit 1)
 				)
 			)
@@ -5503,7 +5503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aefa1015-079a-4085-ad26-5a327caf2252")
-		(property "Reference" "#FLG01801"
+		(property "Reference" "#FLG1801"
 			(at 102.87 65.405 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#FLG01801")
+					(reference "#FLG1801")
 					(unit 1)
 				)
 			)
@@ -5737,7 +5737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_2k7")
+		(lib_id "V2_Resistor:0603_2k7")
 		(at 113.03 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5849,7 +5849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c56ca9c8-1ebf-4b45-8209-2b0ddf0b6770")
-		(property "Reference" "#PWR01809"
+		(property "Reference" "#PWR1809"
 			(at 138.43 132.08 0)
 			(effects
 				(font
@@ -5900,14 +5900,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01809")
+					(reference "#PWR1809")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 85.09 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6020,7 +6020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3bfa4f0-0813-47a2-813d-877888847e25")
-		(property "Reference" "#PWR01816"
+		(property "Reference" "#PWR1816"
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -6071,14 +6071,14 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01816")
+					(reference "#PWR1816")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 212.09 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6183,7 +6183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 163.83 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6288,7 +6288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 218.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6401,7 +6401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f557b9eb-1bd9-454d-875c-b79864a62e42")
-		(property "Reference" "#PWR01812"
+		(property "Reference" "#PWR1812"
 			(at 116.84 130.81 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ba748654-beb9-4861-aa35-c19e08caaf2e"
-					(reference "#PWR01812")
+					(reference "#PWR1812")
 					(unit 1)
 				)
 			)
