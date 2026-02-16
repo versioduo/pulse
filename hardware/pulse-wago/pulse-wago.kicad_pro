@@ -577,7 +577,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/?\\+[0-9]*V.*"
+        "pattern": ".*/\\+.*|\\+.*"
       },
       {
         "netclass": "Link",
@@ -601,7 +601,7 @@
       },
       {
         "netclass": "I2C",
-        "pattern": "/SDA|/SCK|"
+        "pattern": "I2C-.*|.*SDA|.*SCL"
       }
     ]
   },

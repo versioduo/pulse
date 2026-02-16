@@ -488,7 +488,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.175,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -577,7 +577,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": ".*/?\\+[0-9]*V[^/]*"
+        "pattern": ".*/\\+.*|\\+.*"
       },
       {
         "netclass": "Link",
@@ -601,7 +601,7 @@
       },
       {
         "netclass": "I2C",
-        "pattern": "/SDA|/SCK|"
+        "pattern": "I2C-.*|.*SDA|.*SCL"
       }
     ]
   },

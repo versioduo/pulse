@@ -9177,7 +9177,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 184.785 170.18 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9218,15 +9218,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 184.785 170.18 0)
 			(effects
 				(font
@@ -9715,7 +9706,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 218.44 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9758,15 +9749,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -11140,7 +11122,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 151.765 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11189,15 +11171,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 184.785 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11211,7 +11184,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 218.44 157.48 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11254,15 +11227,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 218.44 157.48 0)
 			(effects
 				(font
@@ -11811,7 +11775,7 @@
 		(lib_id "V2_Artwork:Board_pulse")
 		(at 158.75 161.925 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11853,15 +11817,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(effects
 				(font
@@ -13200,7 +13155,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 218.44 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13244,15 +13199,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 218.44 163.83 0)
 			(effects
 				(font
@@ -13502,7 +13448,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 161.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13543,15 +13489,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 184.785 161.29 0)
 			(effects
 				(font

@@ -9227,15 +9227,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 186.055 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9762,15 +9753,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -11193,15 +11175,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 186.055 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11259,15 +11232,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 158.75 0)
 			(effects
 				(font
@@ -11860,15 +11824,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(effects
 				(font
@@ -13259,15 +13214,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 220.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -13550,15 +13496,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 186.055 161.29 0)
 			(effects
 				(font
