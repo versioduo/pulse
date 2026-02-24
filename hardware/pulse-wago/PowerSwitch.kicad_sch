@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Power Switch")
-		(date "2023-01-07")
-		(rev "1")
-		(company "+24V")
-		(comment 1 "Voltage + Current Sense")
+		(date "2026-02-24")
+		(rev "2026-02-24")
+		(company "Versio Duo")
+		(comment 1 "+28V")
+		(comment 2 "Voltage + Current Sense")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -861,7 +862,7 @@
 				)
 			)
 			(property "Footprint" "V2_Package_SO:PG-TDS0-14"
-				(at 2.54 -33.02 0)
+				(at 0 -43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -878,7 +879,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
+			(property "Description" "Infineon Smart High Side Switches PROFET™+ 24V"
 				(at 0 -40.64 0)
 				(effects
 					(font
@@ -909,6 +910,16 @@
 			)
 			(property "Product" "BTT60101ERBXUMA1"
 				(at 0 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "36V"
+				(at 0 -50.8 0)
 				(show_name)
 				(effects
 					(font
@@ -1901,6 +1912,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -2026,6 +2038,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -4660,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
+		(property "Description" "Infineon Smart High Side Switches PROFET™+ 24V"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -4689,6 +4702,15 @@
 		)
 		(property "Product" "BTT60101ERBXUMA1"
 			(at 123.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "36V"
+			(at 123.19 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

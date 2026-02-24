@@ -5196,6 +5196,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5321,6 +5322,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5535,7 +5537,7 @@
 		)
 		(uuid "0143252c-2c83-48fb-a974-f0cf5ff75cd8")
 	)
-	(text "Solenoid Channels / Power +24V"
+	(text "Solenoid Channels / Power +28V"
 		(exclude_from_sim no)
 		(at 153.035 16.51 0)
 		(effects
