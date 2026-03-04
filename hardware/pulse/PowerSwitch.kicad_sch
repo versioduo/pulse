@@ -249,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "810-CNA6P1X7R1H106K2"
+			(property "Mouser" "810-CNC6P1X7R1H106K2"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -269,7 +269,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CNA6P1X7R1H106K250AE"
+			(property "Product" "CNC6P1X7R1H106K250AE"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -3110,7 +3110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 120.65 95.25 0)
 			(show_name yes)
 			(effects
@@ -3120,7 +3120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 120.65 96.52 0)
 			(effects
 				(font

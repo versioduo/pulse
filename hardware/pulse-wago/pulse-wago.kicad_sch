@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-02-10")
+		(date "2026-03-04")
 		(rev "2025-10-27")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -889,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-CC603JRNPO9BN180"
+			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -23.368 0)
 				(show_name)
 				(effects
@@ -899,7 +899,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CC0603JRNPO9BN180"
+			(property "Product" "CGA3E2C0G1H180J080AA"
 				(at 0 -20.574 0)
 				(show_name)
 				(effects
@@ -909,7 +909,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "TDK"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -9179,7 +9179,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 184.785 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9220,6 +9220,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 184.785 170.18 0)
 			(effects
 				(font
@@ -9708,7 +9717,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 218.44 151.13 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9751,6 +9760,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -11124,7 +11142,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 151.765 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11173,6 +11191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 184.785 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11186,7 +11213,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 218.44 157.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11229,6 +11256,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 157.48 0)
 			(effects
 				(font
@@ -11561,7 +11597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 26.67 70.358 0)
 			(effects
 				(font
@@ -11570,7 +11606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 26.67 67.564 0)
 			(effects
 				(font
@@ -11579,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 26.67 64.77 0)
 			(effects
 				(font
@@ -11777,7 +11813,7 @@
 		(lib_id "V2_Artwork:Board_pulse")
 		(at 158.75 161.925 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11819,6 +11855,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(effects
 				(font
@@ -11953,7 +11998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 21.59 70.358 0)
 			(effects
 				(font
@@ -11962,7 +12007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 21.59 67.564 0)
 			(effects
 				(font
@@ -11971,7 +12016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 21.59 64.77 0)
 			(effects
 				(font
@@ -13157,7 +13202,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 218.44 163.83 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13201,6 +13246,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 163.83 0)
 			(effects
 				(font
@@ -13450,7 +13504,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 161.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13491,6 +13545,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 184.785 161.29 0)
 			(effects
 				(font
