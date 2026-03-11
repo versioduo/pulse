@@ -490,11 +490,11 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "back.step",
+      "step": "../../../../../../Desktop/back.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://V2_A4_Empty.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -597,7 +597,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://V2_A4.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "aea49db2-f9e1-44cd-9722-29f1eb6ad104",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
