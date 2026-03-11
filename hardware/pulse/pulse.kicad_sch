@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse")
-		(date "2026-03-04")
-		(rev "2026-01-13")
+		(date "2026-03-11")
+		(rev "2026-03-11")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -520,8 +520,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -700,8 +700,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -880,8 +880,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -14.478 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1050,8 +1050,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1549,8 +1549,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 -7.62 0)
+			(property "Description" ""
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2119,8 +2119,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 -5.08 0)
+			(property "Description" ""
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4706,8 +4706,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4871,8 +4871,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5036,8 +5036,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 -7.62 0)
+			(property "Description" "Push button"
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8078,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 109.22 37.592 0)
 			(effects
 				(font
@@ -8312,7 +8312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 118.11 157.48 0)
 			(effects
 				(font
@@ -8843,7 +8843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -9180,7 +9180,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 186.055 168.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9221,15 +9221,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 186.055 168.91 0)
 			(effects
 				(font
@@ -9292,7 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 58.42 182.372 0)
 			(effects
 				(font
@@ -9720,7 +9711,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 220.98 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9764,15 +9755,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -9835,7 +9817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 37.592 0)
 			(effects
 				(font
@@ -11146,7 +11128,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 186.055 153.035 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11195,15 +11177,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 186.055 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11217,7 +11190,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 220.98 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11261,15 +11234,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 158.75 0)
 			(effects
 				(font
@@ -11332,7 +11296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 33.02 182.372 0)
 			(effects
 				(font
@@ -11499,7 +11463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 24.13 43.18 0)
 			(effects
 				(font
@@ -11594,7 +11558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 26.67 60.452 0)
 			(effects
 				(font
@@ -11690,7 +11654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 57.15 37.592 0)
 			(effects
 				(font
@@ -11820,7 +11784,7 @@
 		(lib_id "V2_Artwork:Board_pulse")
 		(at 158.75 161.925 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11862,15 +11826,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(effects
 				(font
@@ -11995,7 +11950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 21.59 60.452 0)
 			(effects
 				(font
@@ -12282,7 +12237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 146.812 86.36 0)
 			(effects
 				(font
@@ -12387,7 +12342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 99.06 37.592 0)
 			(effects
 				(font
@@ -12492,7 +12447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 78.74 37.592 0)
 			(effects
 				(font
@@ -12725,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -13020,7 +12975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 88.9 37.592 0)
 			(effects
 				(font
@@ -13209,7 +13164,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 220.98 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13253,15 +13208,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 220.98 165.1 0)
 			(effects
 				(font
@@ -13322,7 +13268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 62.992 121.92 0)
 			(effects
 				(font
@@ -13511,7 +13457,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 186.055 161.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13552,15 +13498,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 186.055 161.29 0)
 			(effects
 				(font

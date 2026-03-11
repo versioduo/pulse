@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Channel")
-		(date "2023-01-16")
-		(rev "1")
+		(date "2026-03-11")
+		(rev "2026-03-11")
 		(company "Power MOSFET + RGB LED")
 	)
 	(lib_symbols
@@ -58,8 +58,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -311,7 +311,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:S310FA"
+		(symbol "V2_Diode:PMEG6030AEXEX"
 			(pin_numbers
 				(hide yes)
 			)
@@ -322,23 +322,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "S310FA"
-				(at 0 -3.81 0)
+			(property "Value" "PMEG6030AEXEX"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
-				(at -0.254 -7.62 0)
+			(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -364,7 +364,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "512-S310FA"
+			(property "Mouser" "771-PMEG6030AEXEX"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -374,7 +374,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "onsemi"
+			(property "Manufacturer" "Nexperia"
 				(at 0 -10.16 0)
 				(show_name)
 				(effects
@@ -384,7 +384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "S310FA"
+			(property "Product" "PMEG6030AEXEX"
 				(at 0 -12.7 0)
 				(show_name)
 				(effects
@@ -394,7 +394,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "S310FA_0_1"
+			(symbol "PMEG6030AEXEX_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -432,7 +432,7 @@
 					)
 				)
 			)
-			(symbol "S310FA_1_1"
+			(symbol "PMEG6030AEXEX_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -1420,32 +1420,32 @@
 		)
 	)
 	(junction
-		(at 133.35 91.44)
+		(at 120.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c1fb49f-4ab1-4fca-95e3-d6e2c318f5c4")
 	)
 	(junction
-		(at 133.35 86.36)
+		(at 120.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bf2a0fb-5de9-4f15-94dc-c6e7106bf880")
 	)
 	(junction
-		(at 157.48 86.36)
+		(at 144.78 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c19fff-1d5d-4274-adcd-a75939fb3888")
 	)
 	(junction
-		(at 157.48 91.44)
+		(at 144.78 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff280aec-ec60-4cfc-8a0a-f0e3bb970daf")
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 170.18 86.36)
+			(xy 144.78 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 157.48 86.36)
+			(xy 120.65 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 125.73 96.52)
+			(xy 109.22 96.52) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 157.48 91.44)
+			(xy 120.65 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1485,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 73.66) (xy 185.42 135.89)
+			(xy 191.77 72.39) (xy 191.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1495,7 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 73.66) (xy 121.92 135.89)
+			(xy 109.22 73.66) (xy 109.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 170.18 91.44)
+			(xy 144.78 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 124.46) (xy 160.02 124.46)
+			(xy 191.77 124.46) (xy 160.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 73.66) (xy 185.42 73.66)
+			(xy 109.22 72.39) (xy 191.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 135.89) (xy 121.92 135.89)
+			(xy 191.77 134.62) (xy 109.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 124.46) (xy 144.78 124.46)
+			(xy 109.22 124.46) (xy 144.78 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1554,7 @@
 		(uuid "fc00c732-8ea3-44dc-9501-d185c9f063b6")
 	)
 	(label "PWM-Sink"
-		(at 142.24 91.44 0)
+		(at 129.54 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1565,7 +1565,7 @@
 	)
 	(hierarchical_label "LED-In"
 		(shape input)
-		(at 123.19 124.46 180)
+		(at 109.22 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1576,7 +1576,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 123.19 96.52 180)
+		(at 109.22 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 	)
 	(hierarchical_label "LED-Out"
 		(shape output)
-		(at 184.15 124.46 0)
+		(at 191.77 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1597,8 +1597,8 @@
 		(uuid "f4243247-b268-40b7-bbe5-e5f9a09522d7")
 	)
 	(symbol
-		(lib_id "V2_Diode:S310FA")
-		(at 157.48 88.9 270)
+		(lib_id "V2_Diode:PMEG6030AEXEX")
+		(at 144.78 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1606,24 +1606,23 @@
 		(dnp no)
 		(uuid "003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(property "Reference" "D201"
-			(at 160.02 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S310FA"
-			(at 163.83 90.17 90)
+			(at 145.034 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
-			(at 150.495 88.9 0)
+		(property "Value" "PMEG6030AEXEX"
+			(at 150.368 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 88.9 0)
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,34 +1640,37 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "512-S310FA"
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 147.32 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product" "S310FA"
 			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "771-PMEG6030AEXEX"
+			(at 129.54 88.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 134.62 88.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "PMEG6030AEXEX"
+			(at 132.08 88.9 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1755,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:0603_0u1")
-		(at 133.35 88.9 0)
+		(at 120.65 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1761,7 +1763,7 @@
 		(dnp no)
 		(uuid "2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(property "Reference" "C201"
-			(at 135.89 87.63 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1772,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 135.89 89.916 0)
+			(at 123.19 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1781,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 133.35 105.918 0)
+			(at 120.65 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 88.9 0)
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,8 +1798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 101.6 0)
+		(property "Description" ""
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1808,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 133.35 109.22 0)
+			(at 120.65 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1817,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 133.35 104.14 0)
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1826,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 133.35 106.68 0)
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1835,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 133.35 111.76 0)
+			(at 120.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1920,7 @@
 	)
 	(symbol
 		(lib_id "V2_Transistor_FET:BSC010N04LS")
-		(at 130.81 96.52 0)
+		(at 118.11 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1926,7 +1928,7 @@
 		(dnp no)
 		(uuid "41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(property "Reference" "Q201"
-			(at 137.16 95.885 0)
+			(at 123.698 95.377 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1937,7 @@
 			)
 		)
 		(property "Value" "BSC010N04LS"
-			(at 143.51 98.425 0)
+			(at 130.556 97.917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1945,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:TDSON-8-FL"
-			(at 135.89 98.425 0)
+			(at 123.19 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 96.52 90)
+			(at 118.11 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 96.52 0)
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1974,7 @@
 			)
 		)
 		(property "Mouser" "726-BSC010N04LS"
-			(at 130.81 124.46 0)
+			(at 118.11 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1983,7 @@
 			)
 		)
 		(property "Product" "BSC010N04LS"
-			(at 130.81 121.92 0)
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1992,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 130.81 119.38 0)
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2001,7 @@
 			)
 		)
 		(property "Rating" "40V"
-			(at 130.81 116.84 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2010,7 @@
 			)
 		)
 		(property "Polarity" "N"
-			(at 130.81 114.3 0)
+			(at 118.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2224,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+28V")
-		(at 133.35 86.36 0)
+		(at 120.65 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2230,7 +2232,7 @@
 		(dnp no)
 		(uuid "8d45877f-8135-4a36-8f9e-75138393c863")
 		(property "Reference" "#PWR201"
-			(at 133.35 90.17 0)
+			(at 120.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2241,7 @@
 			)
 		)
 		(property "Value" "+28V"
-			(at 133.35 81.915 0)
+			(at 120.65 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 86.36 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 86.36 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 86.36 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2511,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 175.26 86.36 0)
+		(at 162.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2517,7 +2519,7 @@
 		(dnp no)
 		(uuid "c564935f-4896-4ee0-b85c-c5790de6a0d6")
 		(property "Reference" "J201"
-			(at 176.53 86.36 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2528,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 175.26 92.71 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 175.006 88.9 0)
+			(at 162.306 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 90.17 0)
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 86.36 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2563,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 175.26 97.79 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2572,7 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 175.26 100.838 0)
+			(at 162.56 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2654,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 133.35 101.6 0)
+		(at 120.65 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2660,7 +2662,7 @@
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
 		(property "Reference" "#PWR202"
-			(at 133.35 107.95 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2671,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 106.68 0)
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2780,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2601-1101")
-		(at 175.26 91.44 0)
+		(at 162.56 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2786,7 +2788,7 @@
 		(dnp no)
 		(uuid "e9a7fd4e-f304-4506-ae23-b77ca5ee51a8")
 		(property "Reference" "J202"
-			(at 176.53 91.44 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2797,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 175.26 97.79 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 175.006 93.98 0)
+			(at 162.306 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 91.44 0)
+			(at 162.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2832,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 175.26 102.87 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2841,7 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 175.26 105.918 0)
+			(at 162.56 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
