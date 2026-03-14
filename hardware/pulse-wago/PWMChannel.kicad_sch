@@ -394,6 +394,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "60V"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PMEG6030AEXEX_0_1"
 				(polyline
 					(pts
@@ -1671,6 +1681,15 @@
 		(property "Product" "PMEG6030AEXEX"
 			(at 132.08 88.9 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-03-04")
+		(date "2026-03-14")
 		(rev "2026-03-04")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -1871,7 +1871,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "ESD"
-				(at -6.35 6.35 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 				)
 			)
 			(property "Value" "RCLAMP0582N"
-				(at -6.35 3.81 0)
+				(at -6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -17.78 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1916,7 +1916,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -25.4 0)
+				(at 0 -21.59 0)
 				(show_name)
 				(effects
 					(font
@@ -1926,7 +1926,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -22.86 0)
+				(at 0 -19.05 0)
 				(show_name)
 				(effects
 					(font
@@ -1936,7 +1936,7 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
-				(at 0 -20.32 0)
+				(at 0 -16.51 0)
 				(show_name)
 				(effects
 					(font
@@ -1947,8 +1947,8 @@
 			)
 			(symbol "RCLAMP0582N_0_1"
 				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -5.08)
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1960,27 +1960,9 @@
 			)
 			(symbol "RCLAMP0582N_1_0"
 				(pin bidirectional line
-					(at -8.89 0 0)
+					(at -8.89 5.08 0)
 					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "I/O1"
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1995,11 +1977,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 2.54 -10.16 0)
+				(pin passive line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2014,8 +1995,26 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 8.89 0 180)
+					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2033,7 +2032,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 -2.54 180)
+					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2052,11 +2051,10 @@
 				)
 			)
 			(symbol "RCLAMP0582N_1_1"
-				(pin no_connect line
-					(at 2.54 -7.62 0)
+				(pin passive line
+					(at -8.89 -5.08 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5768,6 +5766,10 @@
 		(uuid "138aac82-fdbb-4b89-98b7-8a7c10acfe5c")
 	)
 	(no_connect
+		(at 161.29 125.73)
+		(uuid "26d14a6e-c93a-4d9b-b366-5add070374e1")
+	)
+	(no_connect
 		(at 53.34 45.72)
 		(uuid "3cfbad7e-231e-4525-83ad-927d2bf97a49")
 	)
@@ -5806,6 +5808,10 @@
 	(no_connect
 		(at 64.77 33.02)
 		(uuid "90102a86-fbc0-4e91-9a66-acfc31d16ac1")
+	)
+	(no_connect
+		(at 161.29 133.35)
+		(uuid "aa52c6e8-d2f0-44e3-9a57-e8b446b82706")
 	)
 	(no_connect
 		(at 53.34 91.44)
@@ -6195,16 +6201,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 161.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cda0d23-6d43-42b1-a600-2d1d1c03fede")
-	)
-	(wire
-		(pts
 			(xy 118.11 173.99) (xy 133.35 173.99)
 		)
 		(stroke
@@ -6375,7 +6371,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 161.29 125.73)
+			(xy 154.94 130.81) (xy 161.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6985,6 +6981,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2505a37-603f-4670-81c2-ee4380b26438")
+	)
+	(wire
+		(pts
 			(xy 34.29 106.68) (xy 53.34 106.68)
 		)
 		(stroke
@@ -7092,6 +7098,16 @@
 			(justify left bottom)
 		)
 		(uuid "0186bc48-a680-4e08-8286-5277889905d8")
+	)
+	(label "USB+"
+		(at 154.94 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02839af8-f47d-4236-bfe7-1e0860c1727b")
 	)
 	(label "RESET"
 		(at 34.29 119.38 0)
@@ -7574,7 +7590,7 @@
 		(uuid "99cf7170-301a-4b1b-afa0-49a09e707f3c")
 	)
 	(label "USB-"
-		(at 154.94 125.73 0)
+		(at 154.94 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7873,16 +7889,6 @@
 		)
 		(uuid "ee1fca48-2175-49bc-870e-62e3f10d393e")
 	)
-	(label "USB+"
-		(at 154.94 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3768e19-2b7f-43ef-b22d-7a96f0a4bc01")
-	)
 	(label "Socket-TX"
 		(at 247.65 127 0)
 		(effects
@@ -7905,7 +7911,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 179.07 125.73 270)
+		(at 179.07 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7913,7 +7919,7 @@
 		(dnp no)
 		(uuid "03dcd9b0-f4f5-4ff5-92d0-1d37c083eb45")
 		(property "Reference" "#PWR116"
-			(at 175.26 125.73 0)
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7928,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 125.73 90)
+			(at 184.15 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 125.73 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 125.73 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +7954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 125.73 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7976,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 195.58 121.92 0)
+		(at 195.58 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7978,7 +7984,7 @@
 		(dnp no)
 		(uuid "042911f1-6b84-46fa-aa64-c39cf668298a")
 		(property "Reference" "#PWR114"
-			(at 195.58 125.73 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7993,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 195.58 116.84 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +8001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 121.92 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 121.92 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 121.92 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,7 +9078,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:CG0603MLC-05LE")
-		(at 195.58 125.73 90)
+		(at 195.58 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9080,7 +9086,7 @@
 		(dnp no)
 		(uuid "2aa6ef76-0d43-496a-a73d-3da42668d1f5")
 		(property "Reference" "TVS101"
-			(at 191.77 110.49 90)
+			(at 191.77 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9095,7 @@
 			)
 		)
 		(property "Value" "CG0603MLC-05LE"
-			(at 186.69 113.03 90)
+			(at 186.69 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9104,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_0603"
-			(at 201.295 125.73 0)
+			(at 201.295 128.27 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -9107,7 +9113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 125.73 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 125.73 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9131,7 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-05LE"
-			(at 213.36 125.73 0)
+			(at 213.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +9140,7 @@
 			)
 		)
 		(property "Product" "CG0603MLC-05LE"
-			(at 208.534 125.73 0)
+			(at 208.534 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9149,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 205.74 125.73 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +9158,7 @@
 			)
 		)
 		(property "Rating" "5V"
-			(at 210.82 125.73 0)
+			(at 210.82 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9185,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 184.785 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9220,6 +9226,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 184.785 170.18 0)
 			(effects
 				(font
@@ -9343,7 +9358,7 @@
 	)
 	(symbol
 		(lib_id "V2_ESD_Suppressor:RCLAMP0582N")
-		(at 170.18 125.73 0)
+		(at 170.18 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9351,7 +9366,7 @@
 		(dnp no)
 		(uuid "330191be-3691-4695-9403-de21f3946dc2")
 		(property "Reference" "ESD101"
-			(at 167.64 118.11 0)
+			(at 167.132 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9374,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0582N"
-			(at 170.815 120.65 0)
+			(at 170.307 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +9382,7 @@
 			)
 		)
 		(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-			(at 170.18 140.97 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9376,7 +9391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 125.73 0)
+			(at 170.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +9400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 125.73 0)
+			(at 170.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +9409,7 @@
 			)
 		)
 		(property "Mouser" "947-RCLAMP0582N.TCT"
-			(at 170.18 151.13 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9418,7 @@
 			)
 		)
 		(property "Product" "RCLAMP0582N.TCT"
-			(at 170.18 148.59 0)
+			(at 170.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +9427,7 @@
 			)
 		)
 		(property "Manufacturer" "Semtech"
-			(at 170.18 146.05 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +9723,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 218.44 151.13 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9751,6 +9766,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -10376,7 +10400,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 179.07 128.27 90)
+		(at 179.07 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10384,7 +10408,7 @@
 		(dnp no)
 		(uuid "5d4a8ed6-8b2a-473e-b9dc-c684dffa2005")
 		(property "Reference" "#PWR118"
-			(at 185.42 128.27 0)
+			(at 185.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 128.27 90)
+			(at 184.15 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 128.27 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 128.27 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 128.27 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10973,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 159.385 182.245 0)
 			(effects
 				(font
@@ -11124,7 +11148,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 151.765 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11173,6 +11197,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 184.785 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11186,7 +11219,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 218.44 157.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11229,6 +11262,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 157.48 0)
 			(effects
 				(font
@@ -11777,7 +11819,7 @@
 		(lib_id "V2_Artwork:Board_pulse")
 		(at 158.75 161.925 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11819,6 +11861,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(effects
 				(font
@@ -12727,7 +12778,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 195.58 129.54 0)
+		(at 195.58 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12735,7 +12786,7 @@
 		(dnp no)
 		(uuid "e32211ce-bb9e-4e22-87da-a3e4515ce0be")
 		(property "Reference" "#PWR119"
-			(at 195.58 135.89 0)
+			(at 195.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12744,7 +12795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 134.62 0)
+			(at 195.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,7 +12804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 129.54 0)
+			(at 195.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12762,7 +12813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 129.54 0)
+			(at 195.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +12822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 129.54 0)
+			(at 195.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13157,7 +13208,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 218.44 163.83 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13201,6 +13252,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 163.83 0)
 			(effects
 				(font
@@ -13450,7 +13510,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 184.785 161.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13491,6 +13551,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 184.785 161.29 0)
 			(effects
 				(font
