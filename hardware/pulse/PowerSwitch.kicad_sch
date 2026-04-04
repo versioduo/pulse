@@ -49,7 +49,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -83,6 +83,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -249,7 +260,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1210"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -283,6 +294,17 @@
 			)
 			(property "Mouser" "810-CNC6P1X7R1H106K2"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -490,6 +512,17 @@
 					)
 				)
 			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "2065-100/998-403"
 				(at 0 -16.51 0)
 				(show_name yes)
@@ -615,6 +648,17 @@
 			(property "Mouser" "771-PMEG2010EPK"
 				(at 0 -12.7 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -803,6 +847,17 @@
 			)
 			(property "Mouser" "652-SMBJ33CA-Q"
 				(at 0 -23.114 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1009,6 +1064,17 @@
 			)
 			(property "Manufacturer" "Infineon"
 				(at 0 -43.18 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "PowerSwitch:${SYMBOL_NAME}"
+				(at 0 -38.1 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1370,7 +1436,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1404,6 +1470,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1555,7 +1632,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1589,6 +1666,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1740,7 +1828,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1774,6 +1862,17 @@
 			)
 			(property "Mouser" "71-CRCW060310K0FKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1927,7 +2026,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1961,6 +2060,17 @@
 			)
 			(property "Mouser" "71-CRCW06032K70FKEAC"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3438,6 +3548,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 120.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77818fc5-fc1b-4007-aa99-51d15af65cba")
 		)
@@ -3552,6 +3673,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 72.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,6 +3894,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 106.68 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbb29661-8552-4be8-a268-de053138a5db")
 		)
@@ -3954,6 +4097,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 228.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 222.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,6 +4319,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 109.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d16e6d1-0aec-469f-a6b5-f3eab32528db")
 		)
@@ -4358,6 +4523,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 107.95 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 107.95 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,6 +4799,17 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b67c1313-5718-4efe-a02d-ea0578bfa695")
 		)
@@ -4735,6 +4922,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 193.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,6 +5057,17 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 193.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 193.04 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,6 +5280,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 154.94 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59c172a5-3dbe-4db7-b183-57b40077ac3e")
 		)
@@ -5272,6 +5492,17 @@
 				)
 			)
 		)
+		(property "Id" "PowerSwitch:${SYMBOL_NAME}"
+			(at 127 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9a8eb96-92d6-45a5-a39b-5615c9a33c49")
 		)
@@ -5334,7 +5565,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "771d3267-958c-403b-8eee-a1a3ce6ec8f7")
 		(property "Reference" "#PWR1806"
@@ -5511,6 +5742,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b33f57e-d3b1-4f2e-a30c-97ec438f3ab6")
 		)
@@ -5635,6 +5877,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25511548-95e1-46e6-a47d-91b88cf22209")
 		)
@@ -5658,7 +5911,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "916ccd8a-035b-401d-bb69-7e07a02f171c")
 		(property "Reference" "#PWR1813"
@@ -5827,6 +6080,17 @@
 		)
 		(property "Product" "CRCW0603100RFKEAHP"
 			(at 199.39 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 199.39 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,6 +6294,17 @@
 		)
 		(property "Rating" "50V"
 			(at 132.08 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,6 +6671,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 208.28 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e759af7-7e90-41a1-9141-83be48ee2822")
 		)
@@ -6488,6 +6774,17 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 95.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,6 +6906,17 @@
 		)
 		(property "Rating" "100mW"
 			(at 116.84 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 116.84 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6821,6 +7129,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 85.09 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37fa08f1-ad80-4884-a1c7-ad8bf851da7f")
 		)
@@ -7024,6 +7343,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 218.44 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e22160d4-4fb1-4f71-bf7e-f8de8a2487c2")
 		)
@@ -7149,6 +7479,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 167.64 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8297af1b-3fe0-4a88-86e5-8603bf8b81cb")
 		)
@@ -7265,6 +7606,17 @@
 		)
 		(property "Rating" "50V"
 			(at 218.44 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 218.44 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

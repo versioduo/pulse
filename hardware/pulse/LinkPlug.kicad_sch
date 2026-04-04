@@ -47,7 +47,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +81,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -275,6 +286,17 @@
 			)
 			(property "Mouser" "649-200211120001T4LF"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Header:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -564,6 +586,17 @@
 			)
 			(property "Mouser" "595-THVD2442DRCR"
 				(at 0 -35.56 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "RS485:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1034,7 +1067,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1068,6 +1101,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2427,6 +2471,17 @@
 				)
 			)
 		)
+		(property "Id" "RS485:${SYMBOL_NAME}"
+			(at 147.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06922174-c6b7-445f-92f2-8e895ef77a4f")
 		)
@@ -2577,6 +2632,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db72c390-5295-4f87-94d3-7b780613f2b7")
 		)
@@ -2680,6 +2746,17 @@
 		)
 		(property "Product" "20021112-00010T4LF"
 			(at 147.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,6 +3526,17 @@
 		)
 		(property "Rating" "50V"
 			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 167.64 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

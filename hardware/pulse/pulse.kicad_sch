@@ -577,7 +577,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -611,6 +611,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -777,7 +788,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -811,6 +822,17 @@
 			)
 			(property "Mouser" "810-C1608X6S1A106M"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -977,7 +999,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1011,6 +1033,17 @@
 			)
 			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1177,7 +1210,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0805"
-				(at 0 -17.018 0)
+				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1211,6 +1244,17 @@
 			)
 			(property "Mouser" "810-C2012X5R1E106K"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1751,6 +1795,17 @@
 					)
 				)
 			)
+			(property "Id" "Crystal:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "ABS07-166-32.768KHZ-T"
 				(at 0 -12.7 0)
 				(show_name yes)
@@ -1939,6 +1994,17 @@
 			)
 			(property "Mouser" "652-CG0603MLC-05LE"
 				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2165,6 +2231,17 @@
 					)
 				)
 			)
+			(property "Id" "ESD:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "RCLAMP0582N_0_1"
 				(rectangle
 					(start -6.35 7.62)
@@ -2380,6 +2457,17 @@
 					)
 				)
 			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "SML-D12D1WT86"
 				(at 0 -12.7 0)
 				(show_name yes)
@@ -2556,7 +2644,7 @@
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2579,7 +2667,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2590,7 +2678,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2601,7 +2689,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2612,8 +2700,19 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2891,6 +2990,17 @@
 			)
 			(property "Manufacturer" "Microchip Technology"
 				(at 0 -73.66 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "MCU:${SYMBOL_NAME}"
+				(at 0 -63.5 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4841,6 +4951,17 @@
 					)
 				)
 			)
+			(property "Id" "LDO:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -41.148 0)
 				(show_name yes)
@@ -5081,7 +5202,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5115,6 +5236,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100KFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5266,7 +5398,7 @@
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5300,6 +5432,17 @@
 			)
 			(property "Mouser" "71-CRCW0603330RFKEAC"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5473,8 +5616,8 @@
 				)
 			)
 			(property "Description" "Push button"
-				(at 0 -7.874 0)
-				(show_name no)
+				(at 0 -8.89 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -5485,6 +5628,17 @@
 			)
 			(property "Mouser" "688-SKSGACE010"
 				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Button:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8671,6 +8825,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40994f9c-19ed-482d-9248-93dc90690555")
 		)
@@ -8929,6 +9094,28 @@
 		)
 		(property "Product" "SKSGACE010"
 			(at 118.11 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 118.11 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,6 +9466,17 @@
 				)
 			)
 		)
+		(property "Id" "LDO:${SYMBOL_NAME}"
+			(at 45.72 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9637be07-47bf-45fa-82e5-499659f57df0")
 		)
@@ -9575,6 +9773,17 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 125.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -9767,6 +9976,17 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 110.49 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26add03a-e6ab-439c-8447-6c1dfd4f0e24")
 		)
@@ -9898,6 +10118,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 201.93 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d4bbdc8-97c3-465d-abfb-49f066de4dc8")
 		)
@@ -9968,6 +10199,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.055 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 186.055 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10097,6 +10339,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 58.42 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ddde3ce-c4f1-4ec5-a9fa-6fda6649f90d")
 		)
@@ -10200,6 +10453,17 @@
 		)
 		(property "Manufacturer" "Semtech"
 			(at 170.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "ESD:${SYMBOL_NAME}"
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10609,6 +10873,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 220.98 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10719,6 +10994,17 @@
 		)
 		(property "Rating" "50V"
 			(at 119.38 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 119.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11081,6 +11367,17 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 69.85 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "MCU:${SYMBOL_NAME}"
+			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11466,6 +11763,17 @@
 		)
 		(property "LCSC" "C965555"
 			(at 125.73 199.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 125.73 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12247,6 +12555,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 186.055 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -12314,6 +12633,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 220.98 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12434,6 +12764,17 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 33.02 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 33.02 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12630,6 +12971,17 @@
 				)
 			)
 		)
+		(property "Id" "Crystal:${SYMBOL_NAME}"
+			(at 24.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c152de-214a-46e7-b4d0-e7b7121fb943")
 		)
@@ -12734,6 +13086,28 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 26.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 26.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12859,6 +13233,17 @@
 		)
 		(property "Rating" "10V"
 			(at 57.15 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 57.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13017,6 +13402,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -13200,6 +13596,28 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 21.59 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 21.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 21.59 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13561,6 +13979,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 148.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "033939a2-7fb5-4ef9-a4b8-e99e3748741d")
 		)
@@ -13686,6 +14115,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 99.06 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cf1b210-2b1a-44fa-ac9c-0947a1a1fb8f")
 		)
@@ -13802,6 +14242,17 @@
 		)
 		(property "Rating" "50V"
 			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,6 +14519,28 @@
 		)
 		(property "Product" "SKSGACE010"
 			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 133.35 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.6N"
+			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,6 +14909,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "456a6422-df18-4ff1-9de7-000df4adc192")
 		)
@@ -14668,6 +15152,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 220.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -14776,6 +15271,17 @@
 		)
 		(property "Product" "CRCW0603100KFKEAC"
 			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 64.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,6 +15510,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.055 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 186.055 161.29 0)
 			(hide yes)
 			(show_name no)

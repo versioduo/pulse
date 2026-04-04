@@ -47,7 +47,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +81,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -288,6 +299,17 @@
 					)
 				)
 			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "2065-100/998-403"
 				(at 0 -16.51 0)
 				(show_name yes)
@@ -413,6 +435,17 @@
 			(property "Mouser" "771-PMEG6030AEXEX"
 				(at 0 -15.24 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -562,7 +595,7 @@
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -585,7 +618,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -596,7 +629,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -607,7 +640,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -618,8 +651,19 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -890,6 +934,17 @@
 			(property "Product" "BSC010N04LS"
 				(at 0 -25.4 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Mosfet:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1838,6 +1893,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24e0af13-64dc-4a11-a32e-3e9747f385c2")
 		)
@@ -2014,6 +2080,17 @@
 		)
 		(property "Rating" "50V"
 			(at 123.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2211,6 +2288,17 @@
 		)
 		(property "Polarity" "N"
 			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Mosfet:${SYMBOL_NAME}"
+			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,7 +2532,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8d45877f-8135-4a36-8f9e-75138393c863")
 		(property "Reference" "#PWR201"
@@ -2672,6 +2760,17 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2e4a623-fc46-45e2-bfe9-6e1fad990af5")
 		)
@@ -2831,6 +2930,17 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 165.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,6 +3238,17 @@
 		)
 		(property "Product" "2065-100/998-403"
 			(at 165.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
