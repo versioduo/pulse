@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-03-30")
-		(rev "2026-03-30")
-		(company "Power MOSFET + RGB LED")
+		(date "2026-04-14")
+		(rev "2026-04-14")
+		(company "Versio Duo")
+		(comment 1 "Solenoid Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -245,7 +257,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2601-1101"
-				(at 0 -8.128 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -278,7 +290,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -11.43 0)
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -289,7 +301,29 @@
 				)
 			)
 			(property "Product" "2601-1101"
-				(at 0 -14.478 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "17.5A"
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -358,27 +392,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "PMEG6030AEXEX"
-				(at 0 5.08 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
-				(at 0 -7.62 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -411,6 +447,28 @@
 				)
 			)
 			(property "Mouser" "771-PMEG6030AEXEX"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
 				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -421,19 +479,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia"
-				(at 0 -10.16 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Product" "PMEG6030AEXEX"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -444,7 +491,7 @@
 				)
 			)
 			(property "Rating" "60V"
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -542,27 +589,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -585,7 +634,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -596,7 +645,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -607,7 +656,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -618,7 +667,29 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -890,6 +961,17 @@
 			(property "Product" "BSC010N04LS"
 				(at 0 -25.4 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "MOSFET:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1838,6 +1920,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24e0af13-64dc-4a11-a32e-3e9747f385c2")
 		)
@@ -2014,6 +2107,17 @@
 		)
 		(property "Rating" "50V"
 			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2220,6 +2324,17 @@
 				)
 			)
 		)
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd7a1801-7826-4f62-bcf7-7acd3b25f6b4")
 		)
@@ -2309,7 +2424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR204"
+		(property "Reference" "#PWR0204"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -2370,67 +2485,67 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/02d7dc07-d88b-46a9-8c27-5f474f94bba5"
-					(reference "#PWR1604")
+					(reference "#PWR01604")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/0c49b5ee-ddea-43ea-ab5a-6c52ceb8d790"
-					(reference "#PWR1304")
+					(reference "#PWR01304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/11be0dca-9aa7-44a3-a97c-59531fd35a86"
-					(reference "#PWR1204")
+					(reference "#PWR01204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b24bac2-35ae-4e4e-8bc5-d88b5d418adf"
-					(reference "#PWR1504")
+					(reference "#PWR01504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2e65de88-75bc-4218-bada-fc991c11693d"
-					(reference "#PWR704")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/72fc00ec-a037-43b2-8be3-f6274b0c3d34"
-					(reference "#PWR404")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/87daeacc-2e6b-4f3e-a4a8-59a3ffd747c2"
-					(reference "#PWR1404")
+					(reference "#PWR01404")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a178fee9-8654-4c6d-afdd-d0f611515c27"
-					(reference "#PWR804")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a89ccf9d-6e1e-42ce-a365-b8a588b2a764"
-					(reference "#PWR604")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR304")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c39b559a-eba7-416b-9b64-29e457c350f9"
-					(reference "#PWR904")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c5e21047-c711-42c5-833c-f87be56058f4"
-					(reference "#PWR504")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR204")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ef3f4e24-65f6-49ab-9666-2948510217b4"
-					(reference "#PWR1704")
+					(reference "#PWR01704")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f374a830-6190-4414-97f7-cd95a96fcb7b"
-					(reference "#PWR1004")
+					(reference "#PWR01004")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f929036c-a21a-4759-9a71-4bb346b616ac"
-					(reference "#PWR1104")
+					(reference "#PWR01104")
 					(unit 1)
 				)
 			)
@@ -2444,10 +2559,10 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8d45877f-8135-4a36-8f9e-75138393c863")
-		(property "Reference" "#PWR201"
+		(property "Reference" "#PWR0201"
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2507,67 +2622,67 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/02d7dc07-d88b-46a9-8c27-5f474f94bba5"
-					(reference "#PWR1601")
+					(reference "#PWR01601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/0c49b5ee-ddea-43ea-ab5a-6c52ceb8d790"
-					(reference "#PWR1301")
+					(reference "#PWR01301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/11be0dca-9aa7-44a3-a97c-59531fd35a86"
-					(reference "#PWR1201")
+					(reference "#PWR01201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b24bac2-35ae-4e4e-8bc5-d88b5d418adf"
-					(reference "#PWR1501")
+					(reference "#PWR01501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2e65de88-75bc-4218-bada-fc991c11693d"
-					(reference "#PWR701")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/72fc00ec-a037-43b2-8be3-f6274b0c3d34"
-					(reference "#PWR401")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/87daeacc-2e6b-4f3e-a4a8-59a3ffd747c2"
-					(reference "#PWR1401")
+					(reference "#PWR01401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a178fee9-8654-4c6d-afdd-d0f611515c27"
-					(reference "#PWR801")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a89ccf9d-6e1e-42ce-a365-b8a588b2a764"
-					(reference "#PWR601")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR301")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c39b559a-eba7-416b-9b64-29e457c350f9"
-					(reference "#PWR901")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c5e21047-c711-42c5-833c-f87be56058f4"
-					(reference "#PWR501")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR201")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ef3f4e24-65f6-49ab-9666-2948510217b4"
-					(reference "#PWR1701")
+					(reference "#PWR01701")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f374a830-6190-4414-97f7-cd95a96fcb7b"
-					(reference "#PWR1001")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f929036c-a21a-4759-9a71-4bb346b616ac"
-					(reference "#PWR1101")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -2663,6 +2778,28 @@
 		)
 		(property "LCSC" "C965555"
 			(at 152.4 144.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 152.4 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,6 +2977,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5bc6b34-57e6-417d-b6d3-324d5906f1c8")
 		)
@@ -2923,7 +3082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR202"
+		(property "Reference" "#PWR0202"
 			(at 120.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2984,67 +3143,67 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/02d7dc07-d88b-46a9-8c27-5f474f94bba5"
-					(reference "#PWR1602")
+					(reference "#PWR01602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/0c49b5ee-ddea-43ea-ab5a-6c52ceb8d790"
-					(reference "#PWR1302")
+					(reference "#PWR01302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/11be0dca-9aa7-44a3-a97c-59531fd35a86"
-					(reference "#PWR1202")
+					(reference "#PWR01202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b24bac2-35ae-4e4e-8bc5-d88b5d418adf"
-					(reference "#PWR1502")
+					(reference "#PWR01502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2e65de88-75bc-4218-bada-fc991c11693d"
-					(reference "#PWR702")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/72fc00ec-a037-43b2-8be3-f6274b0c3d34"
-					(reference "#PWR402")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/87daeacc-2e6b-4f3e-a4a8-59a3ffd747c2"
-					(reference "#PWR1402")
+					(reference "#PWR01402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a178fee9-8654-4c6d-afdd-d0f611515c27"
-					(reference "#PWR802")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a89ccf9d-6e1e-42ce-a365-b8a588b2a764"
-					(reference "#PWR602")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR302")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c39b559a-eba7-416b-9b64-29e457c350f9"
-					(reference "#PWR902")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c5e21047-c711-42c5-833c-f87be56058f4"
-					(reference "#PWR502")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR202")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ef3f4e24-65f6-49ab-9666-2948510217b4"
-					(reference "#PWR1702")
+					(reference "#PWR01702")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f374a830-6190-4414-97f7-cd95a96fcb7b"
-					(reference "#PWR1002")
+					(reference "#PWR01002")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f929036c-a21a-4759-9a71-4bb346b616ac"
-					(reference "#PWR1102")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3137,6 +3296,28 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 162.56 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54b19553-d606-4a4e-bb22-20a9483f5573")
 		)
@@ -3220,7 +3401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR203"
+		(property "Reference" "#PWR0203"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3280,67 +3461,67 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/02d7dc07-d88b-46a9-8c27-5f474f94bba5"
-					(reference "#PWR1603")
+					(reference "#PWR01603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/0c49b5ee-ddea-43ea-ab5a-6c52ceb8d790"
-					(reference "#PWR1303")
+					(reference "#PWR01303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/11be0dca-9aa7-44a3-a97c-59531fd35a86"
-					(reference "#PWR1203")
+					(reference "#PWR01203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b24bac2-35ae-4e4e-8bc5-d88b5d418adf"
-					(reference "#PWR1503")
+					(reference "#PWR01503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2e65de88-75bc-4218-bada-fc991c11693d"
-					(reference "#PWR703")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/72fc00ec-a037-43b2-8be3-f6274b0c3d34"
-					(reference "#PWR403")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/87daeacc-2e6b-4f3e-a4a8-59a3ffd747c2"
-					(reference "#PWR1403")
+					(reference "#PWR01403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a178fee9-8654-4c6d-afdd-d0f611515c27"
-					(reference "#PWR803")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a89ccf9d-6e1e-42ce-a365-b8a588b2a764"
-					(reference "#PWR603")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c0032080-b223-4ef5-af6e-f10445519ca7"
-					(reference "#PWR303")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c39b559a-eba7-416b-9b64-29e457c350f9"
-					(reference "#PWR903")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c5e21047-c711-42c5-833c-f87be56058f4"
-					(reference "#PWR503")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ecb8eef8-bb26-4217-a3d3-147bd9b06112"
-					(reference "#PWR203")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ef3f4e24-65f6-49ab-9666-2948510217b4"
-					(reference "#PWR1703")
+					(reference "#PWR01703")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f374a830-6190-4414-97f7-cd95a96fcb7b"
-					(reference "#PWR1003")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f929036c-a21a-4759-9a71-4bb346b616ac"
-					(reference "#PWR1103")
+					(reference "#PWR01103")
 					(unit 1)
 				)
 			)

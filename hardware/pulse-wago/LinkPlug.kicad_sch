@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-03-30")
-		(rev "2026-03-30")
-		(company "Plug")
+		(date "2026-04-14")
+		(rev "2026-04-14")
+		(company "Versio Duo")
+		(comment 1 "Solenoid Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -241,7 +253,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -263,7 +275,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -274,7 +286,7 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
-				(at 0 -22.86 0)
+				(at 0 -27.94 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -285,7 +297,7 @@
 				)
 			)
 			(property "Manufacturer" "Amphenol FCI"
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -296,7 +308,29 @@
 				)
 			)
 			(property "Product" "20021112-00010T4LF"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Header:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "1A"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -554,6 +588,17 @@
 			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "RS485:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -981,27 +1026,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1035,6 +1082,17 @@
 			)
 			(property "Mouser" "71-CRCW0603100RFKEAH"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1167,7 +1225,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2063,7 +2121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0424c4f3-85a4-465c-b233-1a650daff944")
-		(property "Reference" "#PWR1902"
+		(property "Reference" "#PWR01909"
 			(at 176.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2124,7 +2182,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1902")
+					(reference "#PWR01909")
 					(unit 1)
 				)
 			)
@@ -2141,7 +2199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37ff2809-4acb-4182-b079-1b56f96f0fb2")
-		(property "Reference" "#FLG1902"
+		(property "Reference" "#FLG01902"
 			(at 160.02 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -2201,7 +2259,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#FLG1902")
+					(reference "#FLG01902")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4072bcf9-7e5a-49f7-9263-a0a606602071")
-		(property "Reference" "#FLG1901"
+		(property "Reference" "#FLG01901"
 			(at 160.02 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -2278,7 +2336,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#FLG1901")
+					(reference "#FLG01901")
 					(unit 1)
 				)
 			)
@@ -2342,6 +2400,17 @@
 		)
 		(property "Description" ""
 			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "RS485:${SYMBOL_NAME}"
+			(at 156.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,6 +2570,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 168.91 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db72c390-5295-4f87-94d3-7b780613f2b7")
 		)
@@ -2613,6 +2693,28 @@
 				)
 			)
 		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 156.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbeee69f-4320-4137-9757-aa10f436bae3")
 		)
@@ -2663,7 +2765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a50a4f94-6044-4810-b7e9-9168e306b849")
-		(property "Reference" "#PWR1908"
+		(property "Reference" "#PWR01905"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2723,7 +2825,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1908")
+					(reference "#PWR01905")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afb73ded-0411-4bb9-9664-e9156d949823")
-		(property "Reference" "#PWR1904"
+		(property "Reference" "#PWR01901"
 			(at 143.51 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2801,7 +2903,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1904")
+					(reference "#PWR01901")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd20b057-b856-45fa-ab3f-0c7b37662069")
-		(property "Reference" "#PWR1906"
+		(property "Reference" "#PWR01902"
 			(at 153.67 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2878,7 +2980,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1906")
+					(reference "#PWR01902")
 					(unit 1)
 				)
 			)
@@ -2895,7 +2997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be77e115-89c3-4c96-8eda-21367d69e956")
-		(property "Reference" "#PWR1903"
+		(property "Reference" "#PWR01904"
 			(at 156.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2956,7 +3058,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1903")
+					(reference "#PWR01904")
 					(unit 1)
 				)
 			)
@@ -2973,7 +3075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2da836a-3661-4643-af78-9afd18d81ebe")
-		(property "Reference" "#PWR1905"
+		(property "Reference" "#PWR01907"
 			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3033,7 +3135,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1905")
+					(reference "#PWR01907")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fe0738-e64f-410b-87d2-2898ed4dbb8d")
-		(property "Reference" "#PWR1901"
+		(property "Reference" "#PWR01903"
 			(at 156.21 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3212,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1901")
+					(reference "#PWR01903")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e963bf16-3224-41f7-baa2-c3a09c3b7e41")
-		(property "Reference" "#PWR1909"
+		(property "Reference" "#PWR01906"
 			(at 166.37 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3188,7 +3290,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1909")
+					(reference "#PWR01906")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efe495e2-5921-4d2f-9f16-57ddd4bdedbd")
-		(property "Reference" "#PWR1907"
+		(property "Reference" "#PWR01908"
 			(at 168.91 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3266,7 +3368,7 @@
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/c6db2f80-f80f-4104-8ca1-02f0ab85cfea"
-					(reference "#PWR1907")
+					(reference "#PWR01908")
 					(unit 1)
 				)
 			)
@@ -3373,6 +3475,17 @@
 		)
 		(property "Rating" "50V"
 			(at 176.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
