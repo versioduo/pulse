@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse")
-		(date "2026-04-14")
-		(rev "2026-04-14")
+		(date "2026-06-08")
+		(rev "2026-06-08")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -1974,7 +1974,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Diode_SMD:D_0603"
+			(property "Footprint" "V2_Diode_SMD:D_1608"
 				(at 0 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2430,7 +2430,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_LED:LED_0603"
+			(property "Footprint" "V2_LED:LED_1608"
 				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4770,14 +4770,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Layer_Numbers"
+		(symbol "V2_Production:Layer_Numbers-6"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "INFO"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4786,7 +4786,7 @@
 					)
 				)
 			)
-			(property "Value" "Layer_Numbers"
+			(property "Value" "Layer_Numbers-6"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4797,7 +4797,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Production:Layer_Numbers"
+			(property "Footprint" "V2_Production:Layer_Numbers-6"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4830,7 +4830,7 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_0"
+			(symbol "Layer_Numbers-6_0_0"
 				(text "1 2 3 4"
 					(at 0 0 0)
 					(effects
@@ -4840,7 +4840,7 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_1"
+			(symbol "Layer_Numbers-6_0_1"
 				(rectangle
 					(start -5.08 1.27)
 					(end 5.08 -1.27)
@@ -8117,7 +8117,7 @@
 		)
 		(uuid "5e637019-e420-4d9e-b58f-928f86157049")
 	)
-	(label "VDDCORE"
+	(label "+VCORE"
 		(at 58.42 21.59 0)
 		(effects
 			(font
@@ -8912,6 +8912,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40994f9c-19ed-482d-9248-93dc90690555")
 		)
@@ -9201,6 +9223,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c69c7c9-aa8c-4a17-8984-c4ae3f12d6ae")
 		)
@@ -9436,6 +9480,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 240.03 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 240.03 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9555,6 +9621,28 @@
 		)
 		(property "Rating" "300mA"
 			(at 45.72 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 45.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 45.72 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9742,6 +9830,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 240.03 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 240.03 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -9783,7 +9893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_LED:LED_0603"
+		(property "Footprint" "V2_LED:LED_1608"
 			(at 125.73 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9873,6 +9983,28 @@
 		)
 		(property "Rating" "605nm"
 			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10096,6 +10228,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 110.49 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 110.49 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26add03a-e6ab-439c-8447-6c1dfd4f0e24")
 		)
@@ -10150,7 +10304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_0603"
+		(property "Footprint" "V2_Diode_SMD:D_1608"
 			(at 201.295 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10238,6 +10392,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 195.58 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d4bbdc8-97c3-465d-abfb-49f066de4dc8")
 		)
@@ -10258,7 +10434,7 @@
 		(at 186.055 168.91 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10318,7 +10494,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 186.055 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 186.055 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10459,6 +10646,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ddde3ce-c4f1-4ec5-a9fa-6fda6649f90d")
 		)
@@ -10584,6 +10793,28 @@
 		)
 		(property "Rating" "20kV"
 			(at 170.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 170.18 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,6 +11147,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 256.54 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 256.54 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10930,7 +11183,7 @@
 		(at 220.98 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10993,7 +11246,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 220.98 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11134,6 +11398,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 119.38 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 119.38 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87c8c179-2242-4635-bfce-c96da68b19d7")
 		)
@@ -11204,6 +11490,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 124.46 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11509,6 +11817,28 @@
 		)
 		(property "Rating" "Cortex-M4F"
 			(at 69.85 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 69.85 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,6 +12255,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 125.73 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 125.73 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "992213e3-ec29-4768-b61d-6799515f11ee")
 		)
@@ -12155,6 +12507,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 240.03 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 240.03 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 240.03 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12473,6 +12847,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 159.385 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 159.385 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -12536,6 +12932,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 240.03 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 240.03 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 240.03 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12637,7 +13055,7 @@
 		(at 186.055 153.035 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12697,7 +13115,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 186.055 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 186.055 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -12722,7 +13151,7 @@
 		(at 220.98 158.75 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12785,7 +13214,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 220.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 220.98 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12926,6 +13366,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1935357-889a-41a1-b817-0785847bed70")
 		)
@@ -12942,7 +13404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Layer_Numbers")
+		(lib_id "V2_Production:Layer_Numbers-6")
 		(at 159.385 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -12963,7 +13425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Layer_Numbers"
+		(property "Value" "Layer_Numbers-6"
 			(at 158.7834 166.7085 0)
 			(hide yes)
 			(show_name no)
@@ -12974,7 +13436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Production:Layer_Numbers"
+		(property "Footprint" "V2_Production:Layer_Numbers-6"
 			(at 159.385 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12997,6 +13459,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 159.385 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 159.385 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 159.385 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13135,6 +13619,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c152de-214a-46e7-b4d0-e7b7121fb943")
 		)
@@ -13261,6 +13767,28 @@
 		)
 		(property "Rating" "50V"
 			(at 26.67 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 26.67 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 26.67 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13406,6 +13934,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 57.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 57.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a0d2225-c269-4a51-84e4-3e513e7d8f7c")
 		)
@@ -13504,7 +14054,7 @@
 		(at 158.75 161.925 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13565,7 +14115,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 158.75 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 158.75 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -13641,6 +14202,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 271.78 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 271.78 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13780,6 +14363,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 21.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 21.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaa9c83e-7bc4-4f72-8f4b-d5d56fec85fa")
 		)
@@ -13849,6 +14454,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 240.03 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 240.03 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 240.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14143,6 +14770,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 134.62 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 134.62 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "033939a2-7fb5-4ef9-a4b8-e99e3748741d")
 		)
@@ -14270,6 +14919,28 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 99.06 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 99.06 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 99.06 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14415,6 +15086,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 78.74 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 78.74 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "957882ff-7c79-433b-b595-cba74e7b0f1d")
 		)
@@ -14486,6 +15179,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 271.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 271.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 271.78 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14694,6 +15409,28 @@
 		)
 		(property "Rating" "1.6N"
 			(at 133.35 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 133.35 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15073,6 +15810,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 88.9 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 88.9 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "456a6422-df18-4ff1-9de7-000df4adc192")
 		)
@@ -15144,6 +15903,28 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 271.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 271.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -15228,6 +16009,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 256.54 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 256.54 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -15242,7 +16045,7 @@
 		(at 220.98 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15305,7 +16108,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 220.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 220.98 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15444,6 +16258,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 50.8 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 50.8 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "882ecb35-114d-452b-8aca-e842a8eb4a00")
 		)
@@ -15514,6 +16350,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 256.54 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 256.54 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 256.54 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15599,6 +16457,28 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 159.385 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 159.385 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -15613,7 +16493,7 @@
 		(at 186.055 161.29 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15673,7 +16553,18 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
+		(property "Sim.Enable" ""
+			(at 186.055 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
 			(at 186.055 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17215,17 +18106,18 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
-				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
-				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
-				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
-				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
-				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
-				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
-				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
-				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
+			(data |KLUv/WABBs0PAPaWSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARABjlVmr
+				uudFPLoZj1VmWb8lbD7pPgUABMrQX7Na1VKPYvF6Y0l96//2zbdTadZa7KqXZ43NfUUUIGCCRp74
+				hRhEBdnlpi6ppf6k++BnFcsur9lJ2mHGl/93yyvmu2/eOvyx+u/vTUr9kl/+8G5S/2uw1O/p4F2t
+				Z9zZH+k95wbVytxaGnaq6KaiClvXeHgbhuMi7guB082G4mATw0+USoSLZLaLibD3Pvf9fEM/OfjN
+				0Ce73DbOK/MKgmC1GCDwWXOsB4EKYf3StkmD0m0bhKu2o2wT6mf+SlI7NJSGZVJxKBw7WAlx1KAn
+				rMu6rVbVNkkX6aiI/e/1cNQ/X5LUoUKztIHhNNACV6ABRYOUmppZnDRrYGTm5lgHuKUBCqUheRmB
+				mtErmC2cYpdvw4QpAS+HW0x9ni3oxOjDIsfMJMoe1TEVRT9Vsuj5tcL6QokDa/DzUfliHjoPDuAp
+				yB0UltwFSGjQ8qh9YsiEAU6ZM/MH8LbEFFL4TXKm8ij9cNrJ7wlu2DKOnbAzzIEHWY4okcCT1GJg
+				bYhzrGivkMr2LxUEt7459HIzhg2rdlkB6u5W3N7YeuhB6m4vyMxrpWQtkChBv9Dfi56Y6YgbQOoB
+				pgo=|
 			)
-			(checksum "080A27BD1FADC1F81518BF82EA92C143")
+			(checksum "6080E9E16B39514519B8031C50AB7B2F")
 		)
 	)
 )

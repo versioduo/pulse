@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-04-14")
-		(rev "2026-04-14")
+		(date "2026-06-08")
+		(rev "2026-06-08")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
