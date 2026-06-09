@@ -8912,17 +8912,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 109.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 109.22 24.13 0)
 			(hide yes)
@@ -9223,17 +9212,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 118.11 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 118.11 157.48 0)
 			(hide yes)
@@ -9480,17 +9458,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 240.03 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 240.03 177.8 0)
 			(hide yes)
@@ -9621,17 +9588,6 @@
 		)
 		(property "Rating" "300mA"
 			(at 45.72 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 45.72 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,17 +9786,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 240.03 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 240.03 165.1 0)
 			(hide yes)
@@ -9983,17 +9928,6 @@
 		)
 		(property "Rating" "605nm"
 			(at 125.73 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,17 +10162,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 110.49 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 110.49 181.61 0)
 			(hide yes)
@@ -10392,17 +10315,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 195.58 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 195.58 128.27 90)
 			(hide yes)
@@ -10434,7 +10346,7 @@
 		(at 186.055 168.91 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10484,17 +10396,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 186.055 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10646,17 +10547,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 58.42 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 58.42 168.91 0)
 			(hide yes)
@@ -10793,17 +10683,6 @@
 		)
 		(property "Rating" "20kV"
 			(at 170.18 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,17 +11026,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 256.54 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 256.54 165.1 0)
 			(hide yes)
@@ -11183,7 +11051,7 @@
 		(at 220.98 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11236,17 +11104,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11398,17 +11255,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 119.38 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 119.38 24.13 0)
 			(hide yes)
@@ -11490,17 +11336,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 124.46 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11817,17 +11652,6 @@
 		)
 		(property "Rating" "Cortex-M4F"
 			(at 69.85 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,17 +12079,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 125.73 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 125.73 181.61 0)
 			(hide yes)
@@ -12507,17 +12320,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 240.03 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12847,17 +12649,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 159.385 178.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 159.385 178.435 0)
 			(hide yes)
@@ -12932,17 +12723,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 240.03 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 240.03 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -13055,7 +12835,7 @@
 		(at 186.055 153.035 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13115,17 +12895,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 186.055 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 186.055 153.035 0)
 			(hide yes)
@@ -13151,7 +12920,7 @@
 		(at 220.98 158.75 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13204,17 +12973,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 220.98 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13366,17 +13124,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 33.02 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 33.02 168.91 0)
 			(hide yes)
@@ -13459,17 +13206,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 159.385 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 159.385 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13619,17 +13355,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 24.13 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 24.13 43.18 0)
 			(hide yes)
@@ -13767,17 +13492,6 @@
 		)
 		(property "Rating" "50V"
 			(at 26.67 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 26.67 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13934,17 +13648,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 57.15 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 57.15 24.13 0)
 			(hide yes)
@@ -14054,7 +13757,7 @@
 		(at 158.75 161.925 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -14105,17 +13808,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 158.75 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -14202,17 +13894,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14363,17 +14044,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 21.59 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 21.59 46.99 0)
 			(hide yes)
@@ -14454,17 +14124,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 240.03 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 240.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14770,17 +14429,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 134.62 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 134.62 86.36 90)
 			(hide yes)
@@ -14919,17 +14567,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 99.06 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 99.06 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15086,17 +14723,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 78.74 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 78.74 24.13 0)
 			(hide yes)
@@ -15179,17 +14805,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 271.78 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15409,17 +15024,6 @@
 		)
 		(property "Rating" "1.6N"
 			(at 133.35 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15810,17 +15414,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 88.9 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 88.9 24.13 0)
 			(hide yes)
@@ -15903,17 +15496,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 271.78 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 271.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16009,17 +15591,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 256.54 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 256.54 158.75 0)
 			(hide yes)
@@ -16045,7 +15616,7 @@
 		(at 220.98 165.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16098,17 +15669,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 220.98 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16258,17 +15818,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 50.8 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 50.8 121.92 90)
 			(hide yes)
@@ -16350,17 +15899,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 256.54 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 256.54 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16457,17 +15995,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 159.385 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 159.385 152.4 0)
 			(hide yes)
@@ -16493,7 +16020,7 @@
 		(at 186.055 161.29 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16543,17 +16070,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 186.055 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -16733,7 +16249,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(page "13")
+					(page "11")
 				)
 			)
 		)
@@ -16887,7 +16403,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(page "15")
+					(page "17")
 				)
 			)
 		)
@@ -17937,7 +17453,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(page "17")
+					(page "15")
 				)
 			)
 		)
@@ -18091,7 +17607,7 @@
 		(instances
 			(project "pulse"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(page "11")
+					(page "13")
 				)
 			)
 		)

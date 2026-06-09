@@ -2181,17 +2181,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 151.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 151.13 87.63 0)
 			(hide yes)
@@ -2598,17 +2587,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 162.56 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 162.56 82.55 0)
 			(hide yes)
@@ -2832,17 +2810,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 151.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 151.13 148.59 0)
 			(hide yes)
@@ -3005,17 +2972,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 172.72 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

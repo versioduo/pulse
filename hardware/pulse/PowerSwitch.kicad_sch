@@ -3578,17 +3578,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 120.65 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 120.65 78.74 0)
 			(hide yes)
@@ -3725,17 +3714,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 78.74 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 92.71 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3968,17 +3946,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 92.71 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 92.71 135.89 90)
 			(hide yes)
@@ -4193,17 +4160,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 222.25 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 208.28 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4437,17 +4393,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 102.87 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 102.87 80.01 90)
 			(hide yes)
@@ -4663,17 +4608,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 107.95 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,17 +4906,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 95.25 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 95.25 83.82 0)
 			(hide yes)
@@ -5117,17 +5040,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,17 +5186,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 193.04 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 193.04 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,17 +5420,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 154.94 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 154.94 123.19 0)
 			(hide yes)
@@ -5744,17 +5634,6 @@
 		)
 		(property "Id" "PowerSwitch:${SYMBOL_NAME}"
 			(at 127 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 127 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,17 +5904,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 85.09 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 85.09 128.27 0)
 			(hide yes)
@@ -6173,17 +6041,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 142.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,17 +6273,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 199.39 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 199.39 123.19 0)
 			(hide yes)
@@ -6643,17 +6489,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 132.08 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 132.08 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7042,17 +6877,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 199.39 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 199.39 128.27 90)
 			(hide yes)
@@ -7178,17 +7002,6 @@
 		)
 		(property "Rating" "9A"
 			(at 95.25 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,17 +7145,6 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,17 +7379,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 85.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 85.09 138.43 0)
 			(hide yes)
@@ -7813,17 +7604,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 218.44 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 218.44 128.27 0)
 			(hide yes)
@@ -7971,17 +7751,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 167.64 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 167.64 123.19 0)
 			(hide yes)
@@ -8120,17 +7889,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 218.44 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 218.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
