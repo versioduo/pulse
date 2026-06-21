@@ -623,7 +623,7 @@ namespace {
     void receivePlug(V2Link::Packet* packet) override {
       switch (packet->getType()) {
         case V2Link::Packet::Type::MIDI:
-          packet->receive(&_midi);
+          packet->copyTo(_midi);
           Device.dispatch(&Plug, &_midi);
           break;
 
@@ -643,7 +643,7 @@ namespace {
           return;
 
         if (Device.usb.midi.connected()) {
-          packet->receive(&_midi);
+          packet->copyTo(_midi);
           _midi.setPort(address + 1);
           Device.usb.midi.send(&_midi);
         }
