@@ -6,7 +6,7 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 100, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 101, "versioduo:samd:pulse");
 
 namespace {
   constexpr uint8_t nPorts{16};
@@ -593,15 +593,16 @@ namespace {
   class MIDI {
   public:
     void loop() {
-      if (!Device.usb.midi.receive(&_midi))
+      if (!Device.usb.midi.receive(_midi))
         return;
 
-      if (_midi.getPort() == 0) {
+      if (_midi.port == 0) {
         Device.dispatch(&Device.usb.midi, &_midi);
 
       } else {
-        _midi.setPort(_midi.getPort() - 1);
-        Socket.send(&_midi);
+        V2Link::Packet p(_midi.port - 1, _midi);
+        p.midi.port = 0;
+        Socket.send(p);
       }
     }
 
@@ -617,36 +618,26 @@ namespace {
     }
 
   private:
-    V2MIDI::Packet _midi{};
-
     // Receive a host event from our parent device.
-    void receivePlug(V2Link::Packet* packet) override {
-      switch (packet->getType()) {
+    void receivePlug(V2Link::Packet& p) override {
+      switch (p.type) {
         case V2Link::Packet::Type::MIDI:
-          packet->copyTo(_midi);
-          Device.dispatch(&Plug, &_midi);
+          Device.dispatch(&Plug, &p.midi);
           break;
 
         case V2Link::Packet::Type::Pulse: {
           V2Link::Packet::Pulse pulse;
-          packet->getPulse(&pulse);
+          p.getPulse(pulse);
           Solenoids.triggerPort(pulse.port, pulse.watts, pulse.seconds, pulse.fadeIn, pulse.fadeOut);
         } break;
       }
     }
 
     // Forward children device events to the host.
-    void receiveSocket(V2Link::Packet* packet) override {
-      if (packet->getType() == V2Link::Packet::Type::MIDI) {
-        uint8_t address = packet->getAddress();
-        if (address == 0x0f)
-          return;
-
-        if (Device.usb.midi.connected()) {
-          packet->copyTo(_midi);
-          _midi.setPort(address + 1);
-          Device.usb.midi.send(&_midi);
-        }
+    void receiveSocket(V2Link::Packet& p) override {
+      if (p.type == V2Link::Packet::Type::MIDI) {
+        p.midi.port = p.address;
+        Device.usb.midi.send(p.midi);
       }
     }
   } Link;
