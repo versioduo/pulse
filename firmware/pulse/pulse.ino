@@ -6,7 +6,7 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 101, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 102, "versioduo:samd:pulse");
 
 namespace {
   constexpr uint8_t nPorts{16};
@@ -673,7 +673,7 @@ auto setup() -> void {
   // frequency. This needs to be after begin().
   Link.begin();
   setSerialPriority(&SerialPlug, 2);
-  setSerialPriority(&SerialSocket, 2);
+  setSerialPriority(&SerialSocket, 1);
 
   Power.begin();
 
