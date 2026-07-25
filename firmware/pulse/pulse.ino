@@ -6,7 +6,7 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 102, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 103, "versioduo:samd:pulse");
 
 namespace {
   constexpr uint8_t nPorts{16};
@@ -437,8 +437,8 @@ namespace {
         {
           JsonObject setting = json.add<JsonObject>();
           setting["type"]    = "toggle";
-          setting["ruler"]   = true;
-          setting["label"]   = "Fade In";
+          setting["label"]   = "Enable";
+          setting["text"]    = "Fade In";
 
           char path[64];
           sprintf(path, "outputs[%d]/fadeIn", i);
@@ -447,7 +447,8 @@ namespace {
         {
           JsonObject setting = json.add<JsonObject>();
           setting["type"]    = "toggle";
-          setting["label"]   = "Fade Out";
+          setting["label"]   = "Enable";
+          setting["text"]    = "Fade Out";
 
           char path[64];
           sprintf(path, "outputs[%d]/fadeOut", i);
