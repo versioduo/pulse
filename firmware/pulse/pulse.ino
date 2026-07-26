@@ -6,7 +6,7 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 103, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 104, "versioduo:samd:pulse");
 
 namespace {
   constexpr uint8_t nPorts{16};
@@ -72,8 +72,8 @@ namespace {
       }
 
       // A bar of green LEDs show the voltage.
-      const float   fraction = voltage / (float)config.max;
-      const uint8_t n        = ceil((float)nPorts * fraction);
+      float fraction{voltage / float(config.max)};
+      auto  n{uint8_t(std::ceilf(float(nPorts) * fraction))};
       LED.splashHSV(0.5, 0, n, V2Colour::Green, 1, 0.5);
     }
   } Power;
@@ -82,7 +82,7 @@ namespace {
   public:
     constexpr Solenoids() :
       V2Solenoids({
-        .current{.max{3}, .alpha{0.001}},
+        .current{.max{4}, .alpha{0.001}},
         .resistance{.min{3}, .max{90}},
         .fade{.inSec{0.35}, .outSec{0.35}},
         .hold{.peakUsec{100 * 1000}, .fraction{0.5}},
