@@ -6,13 +6,13 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 104, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 105, "versioduo:samd:pulse");
 
 namespace {
-  constexpr uint8_t nPorts{16};
-  V2LED::WS2812     LED(nPorts + 2, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-  V2Link::Port      Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-  V2Link::Port      Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+  constexpr uint8_t         nPorts{16};
+  V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
+  V2Link::Port              Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
+  V2Link::Port              Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
 
   // Try to spread the power switching noise; run the timers with slightly
   // different periods, so they don't all start the rising edge of the PWM
@@ -50,31 +50,31 @@ namespace {
 
     void handleOn() override {
       digitalWrite(PIN_POWER_ENABLE, HIGH);
-      DeviceLED->setBrightness(0.1);
+      DeviceLED->brightness(0.1);
     }
 
     void handleOff() override {
       digitalWrite(PIN_POWER_ENABLE, LOW);
-      DeviceLED->setBrightness(0);
+      DeviceLED->brightness(0);
     }
 
     void handleNotify(float voltage) override {
       // Loss of power or requests to switch-on without a power connection show yellow LEDs.
       if (voltage < config.min) {
-        LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
+        LED.flash({V2Colour::Yellow, 1, 0.5}, 0.5);
         return;
       }
 
       // Over-voltage shows red LEDs.
       if (voltage > config.max) {
-        LED.splashHSV(0.5, V2Colour::Red, 1, 1);
+        LED.flash({V2Colour::Red, 1, 1}, 0.5);
         return;
       }
 
       // A bar of green LEDs show the voltage.
       float fraction{voltage / float(config.max)};
       auto  n{uint8_t(std::ceilf(float(nPorts) * fraction))};
-      LED.splashHSV(0.5, 0, n, V2Colour::Green, 1, 0.5);
+      LED.flash({V2Colour::Green, 1, 0.5}, 0.5, 0, n);
     }
   } Power;
 
@@ -131,40 +131,38 @@ namespace {
     }
 
     void setLED(LEDMode state, uint8_t port = 0, float value = -1) override {
-      if (LED.isRainbow())
+      if (LED.rainbow())
         return;
 
       switch (state) {
         case LEDMode::Off:
-          LED.setBrightness(port, 0);
+          LED.brightness(0, port);
           break;
 
         case LEDMode::Initialize:
-          LED.setHSV(nPorts + 0, V2Colour::Cyan, 1, 0.25);
-          LED.setHSV(nPorts + 1, V2Colour::Cyan, 1, 0.25);
+          LED.hsv({V2Colour::Cyan, 1, 0.25}, nPorts + 0, 2);
           break;
 
         case LEDMode::Ready:
-          LED.setHSV(nPorts + 0, V2Colour::Orange, 1, 0.25);
-          LED.setHSV(nPorts + 1, V2Colour::Orange, 1, 0.25);
+          LED.hsv({V2Colour::Orange, 1, 0.25}, nPorts + 0, 2);
           break;
 
         case LEDMode::Resistance:
           // Map the fraction of the configured resistance range from cyan to magenta.
-          LED.setHSV(port, (float)V2Colour::Cyan + (120.f * value), 1, 0.15);
+          LED.hsv({V2Colour::Cyan + (120.f * value), 1, 0.15}, port);
           break;
 
         case LEDMode::Power: {
-          const float fraction = powf(value / 100.f, 8);
-          LED.setHSV(port, V2Colour::Orange, 1, 0.3f + (0.3f * fraction));
+          auto fraction{powf(value / 100.f, 8)};
+          LED.hsv({V2Colour::Orange, 1, 0.3f + (0.3f * fraction)}, port);
         } break;
 
         case LEDMode::ShortCircuit:
-          LED.setHSV(port, V2Colour::Red, 1, 1);
+          LED.hsv({V2Colour::Red, 1, 1}, port);
           break;
 
         case LEDMode::OverCurrent:
-          LED.splashHSV(0.2, V2Colour::Magenta, 1, 1);
+          LED.flash({V2Colour::Magenta, 1, 1}, 0.2);
           break;
       }
     }
@@ -668,7 +666,7 @@ auto setup() -> void {
   Serial.begin(9600);
 
   LED.begin();
-  LED.setMaxBrightness(0.5);
+  LED.brightnessMax(0.5);
 
   // Set the SERCOM interrupt priority, it requires a stable ~300 kHz interrupt
   // frequency. This needs to be after begin().
