@@ -6,13 +6,13 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 105, "versioduo:samd:pulse");
+V2DEVICE_METADATA("com.versioduo.pulse", 106, "versioduo:samd:pulse");
 
 namespace {
   constexpr uint8_t         nPorts{16};
   V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
-  V2Link::Port              Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-  V2Link::Port              Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+  V2Link::Port              Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
+  V2Link::Port              Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
 
   // Try to spread the power switching noise; run the timers with slightly
   // different periods, so they don't all start the rising edge of the PWM
