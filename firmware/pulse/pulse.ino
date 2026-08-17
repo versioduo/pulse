@@ -6,10 +6,9 @@
 #include <V2PowerSupply.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.pulse", 106, "versioduo:samd:pulse");
-
 namespace {
   constexpr uint8_t         nPorts{16};
+  V2Device::Info            Info{V2DeviceInfo("com.versioduo.pulse", 106, "versioduo:samd:pulse")};
   V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
   V2Link::Port              Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
   V2Link::Port              Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
@@ -217,27 +216,23 @@ namespace {
       metadata.vendor      = "Versio Duo";
       metadata.product     = "V2 pulse";
       metadata.home        = "https://versioduo.com/#pulse";
-
-      help.device = "Intelligent solenoid power controller, automatically adjusts to changes in supply voltage "
-                    "or solenoid resistance.\n"
-                    "It is driven by commands which specify the length in seconds and the power in watts of a solenoid "
-                    "trigger impulse. It calculates the PWM duty cycle using the measured solenoid resistance and the "
-                    "supplied voltage.\n"
-                    "To protect itself, it monitors the overall current draw from the power supply, and isolates "
-                    "channels which are short cut.";
-
-      help.configuration = "# Playing Notes\n"
-                           "The 16 channels are configured to listen to incoming notes. The watts and seconds "
-                           "values of the note velocity 1 and 127 are configured. The velocity of the incoming note "
-                           "is then used to calculate a pulse in the configured range.\n"
-                           "A currently active pulse will end if a NoteOff is received. By configuring larger values "
-                           "for seconds, this can be used to drive actors with the actual note length.";
-
-      system.download  = "https://versioduo.com/download";
-      system.configure = "https://versioduo.com/configure";
-
-      configuration = {.version{1}, .size{sizeof(config)}, .data{&config}};
-      DeviceLED     = &led;
+      help.device          = "Intelligent solenoid power controller, automatically adjusts to changes in supply voltage "
+                             "or solenoid resistance.\n"
+                             "It is driven by commands which specify the length in seconds and the power in watts of a solenoid "
+                             "trigger impulse. It calculates the PWM duty cycle using the measured solenoid resistance and the "
+                             "supplied voltage.\n"
+                             "To protect itself, it monitors the overall current draw from the power supply, and isolates "
+                             "channels which are short cut.";
+      help.configuration   = "# Playing Notes\n"
+                             "The 16 channels are configured to listen to incoming notes. The watts and seconds "
+                             "values of the note velocity 1 and 127 are configured. The velocity of the incoming note "
+                             "is then used to calculate a pulse in the configured range.\n"
+                             "A currently active pulse will end if a NoteOff is received. By configuring larger values "
+                             "for seconds, this can be used to drive actors with the actual note length.";
+      system.download      = "https://versioduo.com/download";
+      system.configure     = "https://versioduo.com/configure";
+      configuration        = {.version{1}, .size{sizeof(config)}, .data{&config}};
+      DeviceLED            = &led;
     }
 
     enum class CC {
