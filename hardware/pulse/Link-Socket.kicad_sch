@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse")
-		(date "2026-06-08")
-		(rev "2026-06-08")
+		(date "2026-08-31")
+		(rev "2026-08-31")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -2181,17 +2181,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 151.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "410993e1-7cbb-43f8-9043-ba6a7a27131f")
 		)
@@ -2587,17 +2576,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 162.56 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b4a41cef-a01d-4c51-b4ed-8d9de16be514")
 		)
@@ -2810,17 +2788,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 151.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cc1d2583-8d27-4958-b6d5-bbf29de774b6")
 		)
@@ -2972,17 +2939,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 172.72 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

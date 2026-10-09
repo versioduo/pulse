@@ -269,7 +269,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2026-06-08"
+      "sch_revision": "2026-08-31"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -673,7 +673,7 @@
       "method": 1,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -690,12 +690,24 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
+          "label": "Id",
+          "name": "Id",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -704,12 +716,18 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
           "show": true
         },
         {
@@ -720,17 +738,41 @@
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Product",
+          "name": "Product",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${ITEM_NUMBER}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -791,7 +833,7 @@
         "uuid": "6c8448b4-b04d-47e1-934e-e40cbe27a7be"
       }
     ],
-    "used_designators": "Q201,Q301,Q401,Q501,Q601,Q701,Q801,Q901,Q1001,Q1101,Q1201,Q1301,Q1401,Q1501,Q1601,Q1701,D101-103,D201-202,D301-302,D401-402,D501-502,D601-602,D701-702,D801-802,D901-902,D1001-1002,D1101-1102,D1201-1202,D1301-1302,D1401-1402,D1501-1502,D1601-1602,D1701-1702,D1801,#PWR101-127,#PWR201-204,#PWR301-304,#PWR401-404,#PWR501-504,#PWR601-604,#PWR701-704,#PWR801-804,#PWR901-904,#PWR1001-1004,#PWR1101-1104,#PWR1201-1204,#PWR1301-1304,#PWR1401-1404,#PWR1501-1504,#PWR1601-1604,#PWR1701-1704,#PWR1801-1818,#PWR1901-1909,#PWR2001-2007,Y101,U101-102,U1801,U1901,U2001,SW101-102,C101-110,C201,C301,C401,C501,C601,C701,C801,C901,C1001,C1101,C1201,C1301,C1401,C1501,C1601,C1701,C1801-1807,C1901,C2001,FID101-103,H101-108,SWB101,R101-102,R1801-1810,R1901,R2001,ESD101,ICON101-105,#FLG1801,#FLG1901-1902,PLUG101-102,J101,J201-202,J301-302,J401-402,J501-502,J601-602,J701-702,J801-802,J901-902,J1001-1002,J1101-1102,J1201-1202,J1301-1302,J1401-1402,J1501-1502,J1601-1602,J1701-1702,J1801-1802,J1901,J2001,TVS101,TVS1801,INFO101-102",
+    "used_designators": "INFO101-102,TVS101,TVS1801,J101,J201-202,J301-302,J401-402,J501-502,J601-602,J701-702,J801-802,J901-902,J1001-1002,J1101-1102,J1201-1202,J1301-1302,J1401-1402,J1501-1502,J1601-1602,J1701-1702,J1801-1802,J1901,J2001,PLUG101-102,#FLG1801,#FLG1901-1902,ICON101-105,ESD101,R101-102,R1801-1810,R1901,R2001,SWB101,H101-108,FID101-103,C101-110,C201,C301,C401,C501,C601,C701,C801,C901,C1001,C1101,C1201,C1301,C1401,C1501,C1601,C1701,C1801-1807,C1901,C2001,SW101-102,U101-102,U1801,U1901,U2001,Y101,#PWR101-127,#PWR201-204,#PWR301-304,#PWR401-404,#PWR501-504,#PWR601-604,#PWR701-704,#PWR801-804,#PWR901-904,#PWR1001-1004,#PWR1101-1104,#PWR1201-1204,#PWR1301-1304,#PWR1401-1404,#PWR1501-1504,#PWR1601-1604,#PWR1701-1704,#PWR1801-1821,#PWR1901-1909,#PWR2001-2007,D101-103,D201-202,D301-302,D401-402,D501-502,D601-602,D701-702,D801-802,D901-902,D1001-1002,D1101-1102,D1201-1202,D1301-1302,D1401-1402,D1501-1502,D1601-1602,D1701-1702,D1801,Q201,Q301,Q401,Q501,Q601,Q701,Q801,Q901,Q1001,Q1101,Q1201,Q1301,Q1401,Q1501,Q1601,Q1701",
     "variants": []
   },
   "sheets": [

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-06-08")
-		(rev "2026-06-08")
+		(date "2026-08-31")
+		(rev "2026-08-31")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -2313,8 +2313,8 @@
 				)
 			)
 		)
-		(property "Polarity" "N"
-			(at 118.11 114.3 0)
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
+			(at 118.11 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,8 +2324,8 @@
 				)
 			)
 		)
-		(property "Id" "MOSFET:${SYMBOL_NAME}"
-			(at 118.11 111.76 0)
+		(property "Polarity" "N"
+			(at 118.11 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

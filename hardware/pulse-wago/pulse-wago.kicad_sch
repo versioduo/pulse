@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 pulse WAGO")
-		(date "2026-06-08")
-		(rev "2026-06-08")
+		(date "2026-08-31")
+		(rev "2026-08-31")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -5161,25 +5161,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -26.67 180)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -5218,6 +5199,25 @@
 				)
 			)
 			(symbol "TPS78433QWDRBRQ1_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -9816,17 +9816,6 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "755-SML-D12D1WT86"
 			(at 125.73 93.98 0)
 			(hide yes)
@@ -9873,6 +9862,17 @@
 		)
 		(property "Rating" "605nm"
 			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +10258,7 @@
 		(at 184.785 170.18 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10308,6 +10308,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 184.785 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10918,7 +10929,7 @@
 		(at 218.44 151.13 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10970,6 +10981,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12613,7 +12635,7 @@
 		(at 184.785 151.765 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12673,6 +12695,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 184.785 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -12687,7 +12720,7 @@
 		(at 218.44 157.48 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12739,6 +12772,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13456,7 +13500,7 @@
 		(at 158.75 161.925 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13507,6 +13551,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 158.75 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -15184,7 +15239,7 @@
 		(at 218.44 163.83 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15237,6 +15292,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 218.44 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15544,7 +15610,7 @@
 		(at 184.785 161.29 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15604,6 +15670,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 184.785 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "pulse-wago"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -15640,7 +15717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 220.98 100.9146 0)
 			(hide yes)
 			(show_name no)
@@ -15717,7 +15794,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 193.04 84.4046 0)
 			(hide yes)
 			(show_name no)
@@ -15794,7 +15871,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 220.98 84.4046 0)
 			(hide yes)
 			(show_name no)
@@ -15871,7 +15948,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 248.92 100.9146 0)
 			(hide yes)
 			(show_name no)
@@ -15948,7 +16025,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkSocket.kicad_sch"
+		(property "Sheetfile" "Link-Socket.kicad_sch"
 			(at 266.7 132.6646 0)
 			(hide yes)
 			(show_name no)
@@ -16035,7 +16112,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 193.04 69.1646 0)
 			(hide yes)
 			(show_name no)
@@ -16112,7 +16189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 220.98 52.6546 0)
 			(hide yes)
 			(show_name no)
@@ -16189,7 +16266,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 163.83 100.9146 0)
 			(hide yes)
 			(show_name no)
@@ -16266,7 +16343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 220.98 69.1646 0)
 			(hide yes)
 			(show_name no)
@@ -16343,7 +16420,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 163.83 69.1646 0)
 			(hide yes)
 			(show_name no)
@@ -16420,7 +16497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSwitch.kicad_sch"
+		(property "Sheetfile" "Power-Switch.kicad_sch"
 			(at 203.2 34.8746 0)
 			(hide yes)
 			(show_name no)
@@ -16507,7 +16584,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 193.04 52.6546 0)
 			(hide yes)
 			(show_name no)
@@ -16584,7 +16661,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 248.92 69.1646 0)
 			(hide yes)
 			(show_name no)
@@ -16661,7 +16738,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 248.92 52.6546 0)
 			(hide yes)
 			(show_name no)
@@ -16737,7 +16814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LinkPlug.kicad_sch"
+		(property "Sheetfile" "Link-Plug.kicad_sch"
 			(at 227.33 127.5846 0)
 			(hide yes)
 			(show_name no)
@@ -16844,7 +16921,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 163.83 52.6546 0)
 			(hide yes)
 			(show_name no)
@@ -16921,7 +16998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 193.04 100.9146 0)
 			(hide yes)
 			(show_name no)
@@ -16998,7 +17075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 163.83 84.4046 0)
 			(hide yes)
 			(show_name no)
@@ -17075,7 +17152,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWMChannel.kicad_sch"
+		(property "Sheetfile" "PWM-Channel.kicad_sch"
 			(at 248.92 84.4046 0)
 			(hide yes)
 			(show_name no)
