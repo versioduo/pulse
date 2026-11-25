@@ -8,7 +8,7 @@
 
 namespace {
   constexpr uint8_t         nPorts{16};
-  V2Device::Info            Info{V2DeviceInfo("com.versioduo.pulse", 106, "versioduo:samd:pulse")};
+  V2Device::Info            Info{V2DeviceInfo("com.versioduo.pulse", 107, "versioduo:samd:pulse")};
   V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
   V2Link::Port              Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
   V2Link::Port              Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
@@ -82,7 +82,7 @@ namespace {
     constexpr Solenoids() :
       V2Solenoids({
         .current{.max{4}, .alpha{0.001}},
-        .resistance{.min{3}, .max{90}},
+        .resistance{.min{4}, .max{100}},
         .fade{.inSec{0.35}, .outSec{0.35}},
         .hold{.peakUsec{100 * 1000}, .fraction{0.5}},
       }) {}
@@ -121,12 +121,17 @@ namespace {
       return voltage / 1350.f * 3900.f;
     }
 
-    // One single port at a time is connected to 3.3V. The load and a 100Ω resistor
-    // form a voltage divider.
-    float readResistanceVoltage() override {
-      const uint8_t id      = V2Base::Analog::ADC::getID(PIN_RESISTANCE_SENSE);
-      const uint8_t channel = V2Base::Analog::ADC::getChannel(PIN_RESISTANCE_SENSE);
-      return 3.3f * ADC[id].readChannel(channel);
+    // A single port at a time is connected to 3.3V. The load and a 100Ω resistor form a voltage divider.
+    auto readResistanceRatio() -> float override {
+      auto id{V2Base::Analog::ADC::getID(PIN_RESISTANCE_SENSE)};
+      auto channel{V2Base::Analog::ADC::getChannel(PIN_RESISTANCE_SENSE)};
+
+      float min{0.082};
+      auto  ratio{ADC[id].readChannel(channel) - min};
+      if (ratio < 0.f)
+        return 0;
+
+      return ratio * (1.f + min);
     }
 
     void setLED(LEDMode state, uint8_t port = 0, float value = -1) override {
